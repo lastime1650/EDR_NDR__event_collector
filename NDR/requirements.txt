@@ -1,0 +1,7 @@
+elasticsearch==8.17.2
+fastapi
+yara-python
+pefile
+requests
+kafka-python
+ipaddress

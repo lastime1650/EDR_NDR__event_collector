@@ -1,0 +1,711 @@
+02:42:46.783563 enp3s0 Out IP localhost.localdomain.56734 > ip-api.com.http: Flags [S], seq 1255490982, win 32120, options [mss 1460,sackOK,TS val 1400303960 ecr 0,nop,wscale 7], length 0
+02:42:46.784898 enp3s0 Out IP localhost.localdomain.56746 > ip-api.com.http: Flags [S], seq 2937155337, win 32120, options [mss 1460,sackOK,TS val 1400303961 ecr 0,nop,wscale 7], length 0
+02:42:46.864238 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56746: Flags [S.], seq 1986141268, ack 2937155338, win 8190, options [mss 1460], length 0
+02:42:46.864311 enp3s0 Out IP localhost.localdomain.56746 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:46.864382 enp3s0 Out IP localhost.localdomain.56746 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:46.873648 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56734: Flags [S.], seq 2780885961, ack 1255490983, win 8190, options [mss 1460], length 0
+02:42:46.873664 enp3s0 Out IP localhost.localdomain.56734 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:46.873712 enp3s0 Out IP localhost.localdomain.56734 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:47.154765 enp3s0 Out IP localhost.localdomain.56746 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:47.170576 enp3s0 Out IP localhost.localdomain.56734 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:47.185963 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56746: Flags [P.], seq 1:462, ack 161, win 8190, length 461: HTTP: HTTP/1.1 200 OK
+02:42:47.186011 enp3s0 Out IP localhost.localdomain.56746 > ip-api.com.http: Flags [.], ack 462, win 31659, length 0
+02:42:47.186548 enp3s0 Out IP localhost.localdomain.45376 > ip-api.com.http: Flags [P.], seq 714557690:714557843, ack 2293811209, win 32120, length 153: HTTP: GET /json/8.8.8.8 HTTP/1.1
+02:42:47.186839 enp3s0 Out IP localhost.localdomain.56746 > ip-api.com.http: Flags [F.], seq 161, ack 462, win 31659, length 0
+02:42:47.188659 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56734: Flags [P.], seq 1:443, ack 161, win 8190, length 442: HTTP: HTTP/1.1 200 OK
+02:42:47.188675 enp3s0 Out IP localhost.localdomain.56734 > ip-api.com.http: Flags [.], ack 443, win 31678, length 0
+02:42:47.189711 enp3s0 Out IP localhost.localdomain.56734 > ip-api.com.http: Flags [F.], seq 161, ack 443, win 31678, length 0
+02:42:47.234330 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56746: Flags [.], ack 161, win 8190, length 0
+02:42:47.260877 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56734: Flags [.], ack 161, win 8190, length 0
+02:42:47.265898 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56746: Flags [F.], seq 462, ack 162, win 8190, length 0
+02:42:47.265953 enp3s0 Out IP localhost.localdomain.56746 > ip-api.com.http: Flags [.], ack 463, win 31659, length 0
+02:42:47.280413 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56734: Flags [F.], seq 443, ack 162, win 8190, length 0
+02:42:47.280468 enp3s0 Out IP localhost.localdomain.56734 > ip-api.com.http: Flags [.], ack 444, win 31678, length 0
+02:42:47.511426 enp3s0 In  IP ip-api.com.http > localhost.localdomain.45376: Flags [P.], seq 1:455, ack 153, win 8190, length 454: HTTP: HTTP/1.1 200 OK
+02:42:47.511477 enp3s0 Out IP localhost.localdomain.45376 > ip-api.com.http: Flags [.], ack 455, win 31666, length 0
+02:42:47.512186 enp3s0 Out IP localhost.localdomain.45376 > ip-api.com.http: Flags [F.], seq 153, ack 455, win 31666, length 0
+02:42:47.597439 enp3s0 In  IP ip-api.com.http > localhost.localdomain.45376: Flags [F.], seq 455, ack 154, win 8190, length 0
+02:42:47.597479 enp3s0 Out IP localhost.localdomain.45376 > ip-api.com.http: Flags [.], ack 456, win 31666, length 0
+02:42:48.498131 wlp2s0 In  IP 10.0.0.100.54350 > sin01s16-in-f3.1e100.net.http: Flags [S], seq 1160143543, win 65535, options [mss 1460,sackOK,TS val 1874263142 ecr 0,nop,wscale 10], length 0
+02:42:48.498376 enp3s0 Out IP localhost.localdomain.54350 > sin01s16-in-f3.1e100.net.http: Flags [S], seq 1160143543, win 65535, options [mss 1460,sackOK,TS val 1874263142 ecr 0,nop,wscale 10], length 0
+02:42:48.529130 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.54350: Flags [S.], seq 2615778418, ack 1160143544, win 65535, options [mss 1412,sackOK,TS val 2433871465 ecr 1874263142,nop,wscale 8], length 0
+02:42:48.529403 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.54350: Flags [S.], seq 2615778418, ack 1160143544, win 65535, options [mss 1412,sackOK,TS val 2433871465 ecr 1874263142,nop,wscale 8], length 0
+02:42:48.538177 wlp2s0 In  IP 10.0.0.100.54350 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 1, win 64, options [nop,nop,TS val 1874263182 ecr 2433871465], length 0
+02:42:48.538303 enp3s0 Out IP localhost.localdomain.54350 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 1, win 64, options [nop,nop,TS val 1874263182 ecr 2433871465], length 0
+02:42:48.539981 wlp2s0 In  IP 10.0.0.100.54350 > sin01s16-in-f3.1e100.net.http: Flags [P.], seq 1:228, ack 1, win 64, options [nop,nop,TS val 1874263183 ecr 2433871465], length 227: HTTP: GET /generate_204 HTTP/1.1
+02:42:48.540173 enp3s0 Out IP localhost.localdomain.54350 > sin01s16-in-f3.1e100.net.http: Flags [P.], seq 1:228, ack 1, win 64, options [nop,nop,TS val 1874263183 ecr 2433871465], length 227: HTTP: GET /generate_204 HTTP/1.1
+02:42:48.568616 enp3s0 Out IP localhost.localdomain.56760 > ip-api.com.http: Flags [S], seq 756187310, win 32120, options [mss 1460,sackOK,TS val 1400305745 ecr 0,nop,wscale 7], length 0
+02:42:48.571315 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.54350: Flags [.], ack 228, win 1050, options [nop,nop,TS val 2433871508 ecr 1874263183], length 0
+02:42:48.571386 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.54350: Flags [P.], seq 1:147, ack 228, win 1050, options [nop,nop,TS val 2433871508 ecr 1874263183], length 146: HTTP: HTTP/1.1 204 No Content
+02:42:48.571386 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.54350: Flags [F.], seq 147, ack 228, win 1050, options [nop,nop,TS val 2433871508 ecr 1874263183], length 0
+02:42:48.571506 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.54350: Flags [.], ack 228, win 1050, options [nop,nop,TS val 2433871508 ecr 1874263183], length 0
+02:42:48.571659 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.54350: Flags [P.], seq 1:147, ack 228, win 1050, options [nop,nop,TS val 2433871508 ecr 1874263183], length 146: HTTP: HTTP/1.1 204 No Content
+02:42:48.571667 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.54350: Flags [F.], seq 147, ack 228, win 1050, options [nop,nop,TS val 2433871508 ecr 1874263183], length 0
+02:42:48.584987 wlp2s0 In  IP 10.0.0.100.54350 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 147, win 66, options [nop,nop,TS val 1874263230 ecr 2433871508], length 0
+02:42:48.585096 enp3s0 Out IP localhost.localdomain.54350 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 147, win 66, options [nop,nop,TS val 1874263230 ecr 2433871508], length 0
+02:42:48.586735 wlp2s0 In  IP 10.0.0.100.54350 > sin01s16-in-f3.1e100.net.http: Flags [F.], seq 228, ack 148, win 66, options [nop,nop,TS val 1874263230 ecr 2433871508], length 0
+02:42:48.586799 enp3s0 Out IP localhost.localdomain.54350 > sin01s16-in-f3.1e100.net.http: Flags [F.], seq 228, ack 148, win 66, options [nop,nop,TS val 1874263230 ecr 2433871508], length 0
+02:42:48.606058 enp3s0 Out IP localhost.localdomain.56762 > ip-api.com.http: Flags [S], seq 3601480308, win 32120, options [mss 1460,sackOK,TS val 1400305782 ecr 0,nop,wscale 7], length 0
+02:42:48.617761 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.54350: Flags [.], ack 229, win 1050, options [nop,nop,TS val 2433871554 ecr 1874263230], length 0
+02:42:48.617853 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.54350: Flags [.], ack 229, win 1050, options [nop,nop,TS val 2433871554 ecr 1874263230], length 0
+02:42:48.639464 wlp2s0 In  IP 10.0.0.100.46734 > kix07s06-in-f4.1e100.net.http: Flags [S], seq 1122298279, win 65535, options [mss 1460,sackOK,TS val 3275489517 ecr 0,nop,wscale 10], length 0
+02:42:48.639669 enp3s0 Out IP localhost.localdomain.46734 > kix07s06-in-f4.1e100.net.http: Flags [S], seq 1122298279, win 65535, options [mss 1460,sackOK,TS val 3275489517 ecr 0,nop,wscale 10], length 0
+02:42:48.644932 enp3s0 Out IP localhost.localdomain.56778 > ip-api.com.http: Flags [S], seq 2383050114, win 32120, options [mss 1460,sackOK,TS val 1400305821 ecr 0,nop,wscale 7], length 0
+02:42:48.647996 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56760: Flags [S.], seq 3677925441, ack 756187311, win 8190, options [mss 1460], length 0
+02:42:48.648012 enp3s0 Out IP localhost.localdomain.56760 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:48.648101 enp3s0 Out IP localhost.localdomain.56760 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:48.648390 enp3s0 Out IP localhost.localdomain.56790 > ip-api.com.http: Flags [S], seq 4294958052, win 32120, options [mss 1460,sackOK,TS val 1400305824 ecr 0,nop,wscale 7], length 0
+02:42:48.671092 enp3s0 In  IP kix07s06-in-f4.1e100.net.http > localhost.localdomain.46734: Flags [S.], seq 263601539, ack 1122298280, win 65535, options [mss 1412,sackOK,TS val 2735062629 ecr 3275489517,nop,wscale 8], length 0
+02:42:48.671311 wlp2s0 Out IP kix07s06-in-f4.1e100.net.http > 10.0.0.100.46734: Flags [S.], seq 263601539, ack 1122298280, win 65535, options [mss 1412,sackOK,TS val 2735062629 ecr 3275489517,nop,wscale 8], length 0
+02:42:48.679564 wlp2s0 In  IP 10.0.0.100.46734 > kix07s06-in-f4.1e100.net.http: Flags [.], ack 1, win 64, options [nop,nop,TS val 3275489555 ecr 2735062629], length 0
+02:42:48.679717 enp3s0 Out IP localhost.localdomain.46734 > kix07s06-in-f4.1e100.net.http: Flags [.], ack 1, win 64, options [nop,nop,TS val 3275489555 ecr 2735062629], length 0
+02:42:48.680462 wlp2s0 In  IP 10.0.0.100.46734 > kix07s06-in-f4.1e100.net.http: Flags [P.], seq 1:208, ack 1, win 64, options [nop,nop,TS val 3275489555 ecr 2735062629], length 207: HTTP: GET /gen_204 HTTP/1.1
+02:42:48.680647 enp3s0 Out IP localhost.localdomain.46734 > kix07s06-in-f4.1e100.net.http: Flags [P.], seq 1:208, ack 1, win 64, options [nop,nop,TS val 3275489555 ecr 2735062629], length 207: HTTP: GET /gen_204 HTTP/1.1
+02:42:48.695281 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56762: Flags [S.], seq 4084411842, ack 3601480309, win 8190, options [mss 1460], length 0
+02:42:48.695304 enp3s0 Out IP localhost.localdomain.56762 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:48.695391 enp3s0 Out IP localhost.localdomain.56762 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:48.711270 enp3s0 In  IP kix07s06-in-f4.1e100.net.http > localhost.localdomain.46734: Flags [.], ack 208, win 1050, options [nop,nop,TS val 2735062669 ecr 3275489555], length 0
+02:42:48.711371 wlp2s0 Out IP kix07s06-in-f4.1e100.net.http > 10.0.0.100.46734: Flags [.], ack 208, win 1050, options [nop,nop,TS val 2735062669 ecr 3275489555], length 0
+02:42:48.715659 enp3s0 Out IP localhost.localdomain.56796 > ip-api.com.http: Flags [S], seq 388912769, win 32120, options [mss 1460,sackOK,TS val 1400305892 ecr 0,nop,wscale 7], length 0
+02:42:48.736148 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56790: Flags [S.], seq 245120359, ack 4294958053, win 8190, options [mss 1460], length 0
+02:42:48.736221 enp3s0 Out IP localhost.localdomain.56790 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:48.736307 enp3s0 Out IP localhost.localdomain.56790 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:48.740280 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56778: Flags [S.], seq 2512301456, ack 2383050115, win 8190, options [mss 1460], length 0
+02:42:48.740317 enp3s0 Out IP localhost.localdomain.56778 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:48.740370 enp3s0 Out IP localhost.localdomain.56778 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:48.750855 enp3s0 In  IP kix07s06-in-f4.1e100.net.http > localhost.localdomain.46734: Flags [P.], seq 1:467, ack 208, win 1050, options [nop,nop,TS val 2735062709 ecr 3275489555], length 466: HTTP: HTTP/1.1 204 No Content
+02:42:48.750971 enp3s0 In  IP kix07s06-in-f4.1e100.net.http > localhost.localdomain.46734: Flags [F.], seq 467, ack 208, win 1050, options [nop,nop,TS val 2735062709 ecr 3275489555], length 0
+02:42:48.751022 enp3s0 Out IP localhost.localdomain.56802 > ip-api.com.http: Flags [S], seq 1861150961, win 32120, options [mss 1460,sackOK,TS val 1400305927 ecr 0,nop,wscale 7], length 0
+02:42:48.751132 wlp2s0 Out IP kix07s06-in-f4.1e100.net.http > 10.0.0.100.46734: Flags [P.], seq 1:467, ack 208, win 1050, options [nop,nop,TS val 2735062709 ecr 3275489555], length 466: HTTP: HTTP/1.1 204 No Content
+02:42:48.751146 wlp2s0 Out IP kix07s06-in-f4.1e100.net.http > 10.0.0.100.46734: Flags [F.], seq 467, ack 208, win 1050, options [nop,nop,TS val 2735062709 ecr 3275489555], length 0
+02:42:48.773380 enp3s0 Out IP localhost.localdomain.56808 > ip-api.com.http: Flags [S], seq 291614083, win 32120, options [mss 1460,sackOK,TS val 1400305949 ecr 0,nop,wscale 7], length 0
+02:42:48.801850 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56796: Flags [S.], seq 751459981, ack 388912770, win 8190, options [mss 1460], length 0
+02:42:48.801902 enp3s0 Out IP localhost.localdomain.56796 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:48.801971 enp3s0 Out IP localhost.localdomain.56796 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:48.823475 enp3s0 Out IP localhost.localdomain.56810 > ip-api.com.http: Flags [S], seq 3447526341, win 32120, options [mss 1460,sackOK,TS val 1400305999 ecr 0,nop,wscale 7], length 0
+02:42:48.824029 enp3s0 Out IP localhost.localdomain.56812 > ip-api.com.http: Flags [S], seq 3539325557, win 32120, options [mss 1460,sackOK,TS val 1400306000 ecr 0,nop,wscale 7], length 0
+02:42:48.825484 wlp2s0 In  IP 10.0.0.100.46734 > kix07s06-in-f4.1e100.net.http: Flags [.], ack 467, win 66, options [nop,nop,TS val 3275489703 ecr 2735062709], length 0
+02:42:48.825631 enp3s0 Out IP localhost.localdomain.46734 > kix07s06-in-f4.1e100.net.http: Flags [.], ack 467, win 66, options [nop,nop,TS val 3275489703 ecr 2735062709], length 0
+02:42:48.826165 wlp2s0 In  IP 10.0.0.100.46734 > kix07s06-in-f4.1e100.net.http: Flags [F.], seq 208, ack 468, win 66, options [nop,nop,TS val 3275489703 ecr 2735062709], length 0
+02:42:48.826268 enp3s0 Out IP localhost.localdomain.46734 > kix07s06-in-f4.1e100.net.http: Flags [F.], seq 208, ack 468, win 66, options [nop,nop,TS val 3275489703 ecr 2735062709], length 0
+02:42:48.837908 enp3s0 In  IP kix07s06-in-f4.1e100.net.http > localhost.localdomain.46734: Flags [F.], seq 467, ack 208, win 1050, options [nop,nop,TS val 2735062796 ecr 3275489555], length 0
+02:42:48.838045 wlp2s0 Out IP kix07s06-in-f4.1e100.net.http > 10.0.0.100.46734: Flags [F.], seq 467, ack 208, win 1050, options [nop,nop,TS val 2735062796 ecr 3275489555], length 0
+02:42:48.840062 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56802: Flags [S.], seq 3710634816, ack 1861150962, win 8190, options [mss 1460], length 0
+02:42:48.840083 enp3s0 Out IP localhost.localdomain.56802 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:48.840148 enp3s0 Out IP localhost.localdomain.56802 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:48.844884 wlp2s0 In  IP 10.0.0.100.46734 > kix07s06-in-f4.1e100.net.http: Flags [.], ack 468, win 66, options [nop,nop,TS val 3275489723 ecr 2735062796,nop,nop,sack 1 {467:468}], length 0
+02:42:48.844993 enp3s0 Out IP localhost.localdomain.46734 > kix07s06-in-f4.1e100.net.http: Flags [.], ack 468, win 66, options [nop,nop,TS val 3275489723 ecr 2735062796,nop,nop,sack 1 {467:468}], length 0
+02:42:48.857018 enp3s0 In  IP kix07s06-in-f4.1e100.net.http > localhost.localdomain.46734: Flags [.], ack 209, win 1050, options [nop,nop,TS val 2735062815 ecr 3275489703], length 0
+02:42:48.857185 wlp2s0 Out IP kix07s06-in-f4.1e100.net.http > 10.0.0.100.46734: Flags [.], ack 209, win 1050, options [nop,nop,TS val 2735062815 ecr 3275489703], length 0
+02:42:48.868321 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56808: Flags [S.], seq 4284702909, ack 291614084, win 8190, options [mss 1460], length 0
+02:42:48.868335 enp3s0 Out IP localhost.localdomain.56808 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:48.868412 enp3s0 Out IP localhost.localdomain.56808 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:48.905288 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56810: Flags [S.], seq 3610048930, ack 3447526342, win 8190, options [mss 1460], length 0
+02:42:48.905305 enp3s0 Out IP localhost.localdomain.56810 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:48.905351 enp3s0 Out IP localhost.localdomain.56810 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:48.911657 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56812: Flags [S.], seq 3948842215, ack 3539325558, win 8190, options [mss 1460], length 0
+02:42:48.911676 enp3s0 Out IP localhost.localdomain.56812 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:48.911704 enp3s0 Out IP localhost.localdomain.56812 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:48.938600 enp3s0 Out IP localhost.localdomain.56760 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:48.959180 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56760: Flags [P.], seq 1:462, ack 161, win 8190, length 461: HTTP: HTTP/1.1 200 OK
+02:42:48.959186 enp3s0 Out IP localhost.localdomain.56760 > ip-api.com.http: Flags [.], ack 462, win 31659, length 0
+02:42:48.960009 enp3s0 Out IP localhost.localdomain.56760 > ip-api.com.http: Flags [F.], seq 161, ack 462, win 31659, length 0
+02:42:48.986760 enp3s0 Out IP localhost.localdomain.56762 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:48.992105 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56762: Flags [P.], seq 1:462, ack 161, win 8190, length 461: HTTP: HTTP/1.1 200 OK
+02:42:48.992130 enp3s0 Out IP localhost.localdomain.56762 > ip-api.com.http: Flags [.], ack 462, win 31659, length 0
+02:42:48.992774 enp3s0 Out IP localhost.localdomain.56762 > ip-api.com.http: Flags [F.], seq 161, ack 462, win 31659, length 0
+02:42:49.018471 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56760: Flags [.], ack 161, win 8190, length 0
+02:42:49.021161 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56790: Flags [P.], seq 1:462, ack 161, win 8190, length 461: HTTP: HTTP/1.1 200 OK
+02:42:49.021200 enp3s0 Out IP localhost.localdomain.56790 > ip-api.com.http: Flags [.], ack 462, win 31659, length 0
+02:42:49.021847 enp3s0 Out IP localhost.localdomain.56790 > ip-api.com.http: Flags [F.], seq 161, ack 462, win 31659, length 0
+02:42:49.039190 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56760: Flags [F.], seq 462, ack 162, win 8190, length 0
+02:42:49.039240 enp3s0 Out IP localhost.localdomain.56760 > ip-api.com.http: Flags [.], ack 463, win 31659, length 0
+02:42:49.042611 enp3s0 Out IP localhost.localdomain.56778 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:49.075501 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56762: Flags [.], ack 161, win 8190, length 0
+02:42:49.081055 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56762: Flags [F.], seq 462, ack 162, win 8190, length 0
+02:42:49.081106 enp3s0 Out IP localhost.localdomain.56762 > ip-api.com.http: Flags [.], ack 463, win 31659, length 0
+02:42:49.098619 enp3s0 Out IP localhost.localdomain.56796 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:49.109420 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56790: Flags [F.], seq 462, ack 162, win 8190, length 0
+02:42:49.109480 enp3s0 Out IP localhost.localdomain.56790 > ip-api.com.http: Flags [.], ack 463, win 31659, length 0
+02:42:49.130657 enp3s0 Out IP localhost.localdomain.56802 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:49.170683 enp3s0 Out IP localhost.localdomain.56808 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:49.194583 enp3s0 Out IP localhost.localdomain.56810 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:49.202663 enp3s0 Out IP localhost.localdomain.56812 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:49.682588 enp3s0 Out IP localhost.localdomain.56796 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:49.682611 enp3s0 Out IP localhost.localdomain.56778 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:49.746597 enp3s0 Out IP localhost.localdomain.56802 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:49.810593 enp3s0 Out IP localhost.localdomain.56812 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:49.810607 enp3s0 Out IP localhost.localdomain.56810 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:49.810611 enp3s0 Out IP localhost.localdomain.56808 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:49.855436 wlp2s0 In  IP 10.0.0.100.54362 > sin01s16-in-f3.1e100.net.http: Flags [S], seq 3467623073, win 65535, options [mss 1460,sackOK,TS val 1874264494 ecr 0,nop,wscale 10], length 0
+02:42:49.855719 enp3s0 Out IP localhost.localdomain.54362 > sin01s16-in-f3.1e100.net.http: Flags [S], seq 3467623073, win 65535, options [mss 1460,sackOK,TS val 1874264494 ecr 0,nop,wscale 10], length 0
+02:42:49.881869 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.54362: Flags [S.], seq 2059798556, ack 3467623074, win 65535, options [mss 1412,sackOK,TS val 1014327402 ecr 1874264494,nop,wscale 8], length 0
+02:42:49.882104 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.54362: Flags [S.], seq 2059798556, ack 3467623074, win 65535, options [mss 1412,sackOK,TS val 1014327402 ecr 1874264494,nop,wscale 8], length 0
+02:42:49.888695 wlp2s0 In  IP 10.0.0.100.54362 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 1, win 64, options [nop,nop,TS val 1874264534 ecr 1014327402], length 0
+02:42:49.888799 enp3s0 Out IP localhost.localdomain.54362 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 1, win 64, options [nop,nop,TS val 1874264534 ecr 1014327402], length 0
+02:42:49.899231 wlp2s0 In  IP 10.0.0.100.54362 > sin01s16-in-f3.1e100.net.http: Flags [P.], seq 1:228, ack 1, win 64, options [nop,nop,TS val 1874264534 ecr 1014327402], length 227: HTTP: GET /generate_204 HTTP/1.1
+02:42:49.899415 enp3s0 Out IP localhost.localdomain.54362 > sin01s16-in-f3.1e100.net.http: Flags [P.], seq 1:228, ack 1, win 64, options [nop,nop,TS val 1874264534 ecr 1014327402], length 227: HTTP: GET /generate_204 HTTP/1.1
+02:42:49.925031 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.54362: Flags [.], ack 228, win 1050, options [nop,nop,TS val 1014327445 ecr 1874264534], length 0
+02:42:49.925179 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.54362: Flags [.], ack 228, win 1050, options [nop,nop,TS val 1014327445 ecr 1874264534], length 0
+02:42:49.925775 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.54362: Flags [P.], seq 1:147, ack 228, win 1050, options [nop,nop,TS val 1014327446 ecr 1874264534], length 146: HTTP: HTTP/1.1 204 No Content
+02:42:49.925807 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.54362: Flags [F.], seq 147, ack 228, win 1050, options [nop,nop,TS val 1014327446 ecr 1874264534], length 0
+02:42:49.925959 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.54362: Flags [P.], seq 1:147, ack 228, win 1050, options [nop,nop,TS val 1014327446 ecr 1874264534], length 146: HTTP: HTTP/1.1 204 No Content
+02:42:49.925969 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.54362: Flags [F.], seq 147, ack 228, win 1050, options [nop,nop,TS val 1014327446 ecr 1874264534], length 0
+02:42:49.931034 wlp2s0 In  IP 10.0.0.100.54362 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 147, win 66, options [nop,nop,TS val 1874264574 ecr 1014327446], length 0
+02:42:49.931149 enp3s0 Out IP localhost.localdomain.54362 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 147, win 66, options [nop,nop,TS val 1874264574 ecr 1014327446], length 0
+02:42:49.931540 wlp2s0 In  IP 10.0.0.100.54362 > sin01s16-in-f3.1e100.net.http: Flags [F.], seq 228, ack 148, win 66, options [nop,nop,TS val 1874264576 ecr 1014327446], length 0
+02:42:49.931610 enp3s0 Out IP localhost.localdomain.54362 > sin01s16-in-f3.1e100.net.http: Flags [F.], seq 228, ack 148, win 66, options [nop,nop,TS val 1874264576 ecr 1014327446], length 0
+02:42:49.932824 enp3s0 Out IP localhost.localdomain.56816 > ip-api.com.http: Flags [S], seq 2721987647, win 32120, options [mss 1460,sackOK,TS val 1400307109 ecr 0,nop,wscale 7], length 0
+02:42:49.954527 enp3s0 Out IP localhost.localdomain.56832 > ip-api.com.http: Flags [S], seq 1708584633, win 32120, options [mss 1460,sackOK,TS val 1400307130 ecr 0,nop,wscale 7], length 0
+02:42:49.957082 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.54362: Flags [.], ack 229, win 1050, options [nop,nop,TS val 1014327477 ecr 1874264576], length 0
+02:42:49.957249 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.54362: Flags [.], ack 229, win 1050, options [nop,nop,TS val 1014327477 ecr 1874264576], length 0
+02:42:50.001786 enp3s0 Out IP localhost.localdomain.56836 > ip-api.com.http: Flags [S], seq 1764952814, win 32120, options [mss 1460,sackOK,TS val 1400307178 ecr 0,nop,wscale 7], length 0
+02:42:50.002762 enp3s0 Out IP localhost.localdomain.56848 > ip-api.com.http: Flags [S], seq 1316733518, win 32120, options [mss 1460,sackOK,TS val 1400307179 ecr 0,nop,wscale 7], length 0
+02:42:50.008334 wlp2s0 In  IP 10.0.0.100.46496 > 216.239.34.223.http: Flags [S], seq 3479011092, win 65535, options [mss 1460,sackOK,TS val 1433045844 ecr 0,nop,wscale 10], length 0
+02:42:50.008550 enp3s0 Out IP localhost.localdomain.46496 > 216.239.34.223.http: Flags [S], seq 3479011092, win 65535, options [mss 1460,sackOK,TS val 1433045844 ecr 0,nop,wscale 10], length 0
+02:42:50.022647 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56816: Flags [S.], seq 1885494332, ack 2721987648, win 8190, options [mss 1460], length 0
+02:42:50.022663 enp3s0 Out IP localhost.localdomain.56816 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:50.022744 enp3s0 Out IP localhost.localdomain.56816 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:50.037958 enp3s0 In  IP 216.239.34.223.http > localhost.localdomain.46496: Flags [S.], seq 4024012339, ack 3479011093, win 65535, options [mss 1412,sackOK,TS val 1822188894 ecr 1433045844,nop,wscale 8], length 0
+02:42:50.038199 wlp2s0 Out IP 216.239.34.223.http > 10.0.0.100.46496: Flags [S.], seq 4024012339, ack 3479011093, win 65535, options [mss 1412,sackOK,TS val 1822188894 ecr 1433045844,nop,wscale 8], length 0
+02:42:50.041153 wlp2s0 In  IP 10.0.0.100.46496 > 216.239.34.223.http: Flags [.], ack 1, win 64, options [nop,nop,TS val 1433045877 ecr 1822188894], length 0
+02:42:50.041383 enp3s0 Out IP localhost.localdomain.46496 > 216.239.34.223.http: Flags [.], ack 1, win 64, options [nop,nop,TS val 1433045877 ecr 1822188894], length 0
+02:42:50.042802 wlp2s0 In  IP 10.0.0.100.46496 > 216.239.34.223.http: Flags [P.], seq 1:218, ack 1, win 64, options [nop,nop,TS val 1433045878 ecr 1822188894], length 217: HTTP: GET /generate_204 HTTP/1.1
+02:42:50.043032 enp3s0 Out IP localhost.localdomain.46496 > 216.239.34.223.http: Flags [P.], seq 1:218, ack 1, win 64, options [nop,nop,TS val 1433045878 ecr 1822188894], length 217: HTTP: GET /generate_204 HTTP/1.1
+02:42:50.044435 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56832: Flags [S.], seq 3665754346, ack 1708584634, win 8190, options [mss 1460], length 0
+02:42:50.044470 enp3s0 Out IP localhost.localdomain.56832 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:50.044547 enp3s0 Out IP localhost.localdomain.56832 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:50.071902 enp3s0 In  IP 216.239.34.223.http > localhost.localdomain.46496: Flags [.], ack 218, win 1050, options [nop,nop,TS val 1822188928 ecr 1433045878], length 0
+02:42:50.072027 wlp2s0 Out IP 216.239.34.223.http > 10.0.0.100.46496: Flags [.], ack 218, win 1050, options [nop,nop,TS val 1822188928 ecr 1433045878], length 0
+02:42:50.072034 enp3s0 In  IP 216.239.34.223.http > localhost.localdomain.46496: Flags [P.], seq 1:147, ack 218, win 1050, options [nop,nop,TS val 1822188928 ecr 1433045878], length 146: HTTP: HTTP/1.1 204 No Content
+02:42:50.072062 enp3s0 In  IP 216.239.34.223.http > localhost.localdomain.46496: Flags [F.], seq 147, ack 218, win 1050, options [nop,nop,TS val 1822188928 ecr 1433045878], length 0
+02:42:50.072210 wlp2s0 Out IP 216.239.34.223.http > 10.0.0.100.46496: Flags [P.], seq 1:147, ack 218, win 1050, options [nop,nop,TS val 1822188928 ecr 1433045878], length 146: HTTP: HTTP/1.1 204 No Content
+02:42:50.072219 wlp2s0 Out IP 216.239.34.223.http > 10.0.0.100.46496: Flags [F.], seq 147, ack 218, win 1050, options [nop,nop,TS val 1822188928 ecr 1433045878], length 0
+02:42:50.077682 wlp2s0 In  IP 10.0.0.100.46496 > 216.239.34.223.http: Flags [.], ack 147, win 66, options [nop,nop,TS val 1433045912 ecr 1822188928], length 0
+02:42:50.077798 enp3s0 Out IP localhost.localdomain.46496 > 216.239.34.223.http: Flags [.], ack 147, win 66, options [nop,nop,TS val 1433045912 ecr 1822188928], length 0
+02:42:50.078177 wlp2s0 In  IP 10.0.0.100.46496 > 216.239.34.223.http: Flags [F.], seq 218, ack 148, win 66, options [nop,nop,TS val 1433045913 ecr 1822188928], length 0
+02:42:50.078249 enp3s0 Out IP localhost.localdomain.46496 > 216.239.34.223.http: Flags [F.], seq 218, ack 148, win 66, options [nop,nop,TS val 1433045913 ecr 1822188928], length 0
+02:42:50.078830 enp3s0 Out IP localhost.localdomain.56864 > ip-api.com.http: Flags [S], seq 1284972791, win 32120, options [mss 1460,sackOK,TS val 1400307255 ecr 0,nop,wscale 7], length 0
+02:42:50.090881 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56848: Flags [S.], seq 1601810678, ack 1316733519, win 8190, options [mss 1460], length 0
+02:42:50.090909 enp3s0 Out IP localhost.localdomain.56848 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:50.090968 enp3s0 Out IP localhost.localdomain.56848 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:50.091841 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56836: Flags [S.], seq 3461517073, ack 1764952815, win 8190, options [mss 1460], length 0
+02:42:50.091852 enp3s0 Out IP localhost.localdomain.56836 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:50.091907 enp3s0 Out IP localhost.localdomain.56836 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:50.106814 enp3s0 In  IP 216.239.34.223.http > localhost.localdomain.46496: Flags [.], ack 219, win 1050, options [nop,nop,TS val 1822188963 ecr 1433045913], length 0
+02:42:50.106916 wlp2s0 Out IP 216.239.34.223.http > 10.0.0.100.46496: Flags [.], ack 219, win 1050, options [nop,nop,TS val 1822188963 ecr 1433045913], length 0
+02:42:50.114743 enp3s0 Out IP localhost.localdomain.56872 > ip-api.com.http: Flags [S], seq 2338341982, win 32120, options [mss 1460,sackOK,TS val 1400307291 ecr 0,nop,wscale 7], length 0
+02:42:50.144850 enp3s0 Out IP localhost.localdomain.56882 > ip-api.com.http: Flags [S], seq 2901788234, win 32120, options [mss 1460,sackOK,TS val 1400307321 ecr 0,nop,wscale 7], length 0
+02:42:50.147315 enp3s0 Out IP localhost.localdomain.56884 > ip-api.com.http: Flags [S], seq 3745768486, win 32120, options [mss 1460,sackOK,TS val 1400307323 ecr 0,nop,wscale 7], length 0
+02:42:50.160527 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56864: Flags [S.], seq 2566522065, ack 1284972792, win 8190, options [mss 1460], length 0
+02:42:50.160569 enp3s0 Out IP localhost.localdomain.56864 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:50.160628 enp3s0 Out IP localhost.localdomain.56864 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:50.195625 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56872: Flags [S.], seq 2465835438, ack 2338341983, win 8190, options [mss 1460], length 0
+02:42:50.195651 enp3s0 Out IP localhost.localdomain.56872 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:50.195716 enp3s0 Out IP localhost.localdomain.56872 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:50.233341 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56882: Flags [S.], seq 899785182, ack 2901788235, win 8190, options [mss 1460], length 0
+02:42:50.233405 enp3s0 Out IP localhost.localdomain.56882 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:50.233464 enp3s0 Out IP localhost.localdomain.56882 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:50.234800 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56884: Flags [S.], seq 164443975, ack 3745768487, win 8190, options [mss 1460], length 0
+02:42:50.234809 enp3s0 Out IP localhost.localdomain.56884 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:50.234856 enp3s0 Out IP localhost.localdomain.56884 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:50.354581 enp3s0 Out IP localhost.localdomain.56816 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:50.378662 enp3s0 Out IP localhost.localdomain.56832 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:50.418674 enp3s0 Out IP localhost.localdomain.56848 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:50.426629 enp3s0 Out IP localhost.localdomain.56836 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:50.490543 enp3s0 Out IP localhost.localdomain.56864 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:50.530577 enp3s0 Out IP localhost.localdomain.56872 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:50.562655 enp3s0 Out IP localhost.localdomain.56884 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:50.562658 enp3s0 Out IP localhost.localdomain.56882 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:50.766463 enp3s0 Out IP localhost.localdomain.56890 > ip-api.com.http: Flags [S], seq 3470150481, win 32120, options [mss 1460,sackOK,TS val 1400307942 ecr 0,nop,wscale 7], length 0
+02:42:50.768779 enp3s0 Out IP localhost.localdomain.56892 > ip-api.com.http: Flags [S], seq 3598778574, win 32120, options [mss 1460,sackOK,TS val 1400307945 ecr 0,nop,wscale 7], length 0
+02:42:50.770633 enp3s0 Out IP localhost.localdomain.47066 > ip-api.com.http: Flags [P.], seq 1718952843:1718953003, ack 1902780215, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:50.855042 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56890: Flags [S.], seq 1068950803, ack 3470150482, win 8190, options [mss 1460], length 0
+02:42:50.855100 enp3s0 Out IP localhost.localdomain.56890 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:50.855180 enp3s0 Out IP localhost.localdomain.56890 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:50.858733 enp3s0 In  IP ip-api.com.http > localhost.localdomain.56892: Flags [S.], seq 64690809, ack 3598778575, win 8190, options [mss 1460], length 0
+02:42:50.858772 enp3s0 Out IP localhost.localdomain.56892 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:50.858839 enp3s0 Out IP localhost.localdomain.56892 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:50.898658 enp3s0 Out IP localhost.localdomain.56796 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:50.898672 enp3s0 Out IP localhost.localdomain.56778 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:50.962606 enp3s0 Out IP localhost.localdomain.56802 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:51.026543 enp3s0 Out IP localhost.localdomain.56810 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:51.026571 enp3s0 Out IP localhost.localdomain.56816 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:51.026576 enp3s0 Out IP localhost.localdomain.56808 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:51.026579 enp3s0 Out IP localhost.localdomain.56812 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:51.090582 enp3s0 Out IP localhost.localdomain.56848 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:51.090598 enp3s0 Out IP localhost.localdomain.56832 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:51.090615 enp3s0 Out IP localhost.localdomain.56836 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:51.154580 enp3s0 Out IP localhost.localdomain.56864 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:51.186549 enp3s0 Out IP localhost.localdomain.56890 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:51.186556 enp3s0 Out IP localhost.localdomain.56892 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:51.218553 enp3s0 Out IP localhost.localdomain.56884 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:51.218557 enp3s0 Out IP localhost.localdomain.56872 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:51.218607 enp3s0 Out IP localhost.localdomain.56882 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:51.794611 enp3s0 Out IP localhost.localdomain.47078 > ip-api.com.http: Flags [P.], seq 3136708325:3136708485, ack 2832953021, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:51.858588 enp3s0 Out IP localhost.localdomain.56892 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:51.858612 enp3s0 Out IP localhost.localdomain.56890 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:52.110219 wlp2s0 In  IP 10.0.0.100.38108 > sin01s16-in-f3.1e100.net.http: Flags [S], seq 1607728177, win 65535, options [mss 1460,sackOK,TS val 1874266748 ecr 0,nop,wscale 10], length 0
+02:42:52.110499 enp3s0 Out IP localhost.localdomain.38108 > sin01s16-in-f3.1e100.net.http: Flags [S], seq 1607728177, win 65535, options [mss 1460,sackOK,TS val 1874266748 ecr 0,nop,wscale 10], length 0
+02:42:52.137479 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.38108: Flags [S.], seq 3869068943, ack 1607728178, win 65535, options [mss 1412,sackOK,TS val 2433875074 ecr 1874266748,nop,wscale 8], length 0
+02:42:52.137749 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.38108: Flags [S.], seq 3869068943, ack 1607728178, win 65535, options [mss 1412,sackOK,TS val 2433875074 ecr 1874266748,nop,wscale 8], length 0
+02:42:52.171243 wlp2s0 In  IP 10.0.0.100.38108 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 1, win 64, options [nop,nop,TS val 1874266786 ecr 2433875074], length 0
+02:42:52.171325 enp3s0 Out IP localhost.localdomain.38108 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 1, win 64, options [nop,nop,TS val 1874266786 ecr 2433875074], length 0
+02:42:52.179737 enp3s0 Out IP localhost.localdomain.42786 > ip-api.com.http: Flags [S], seq 1000281864, win 32120, options [mss 1460,sackOK,TS val 1400309356 ecr 0,nop,wscale 7], length 0
+02:42:52.181427 wlp2s0 In  IP 10.0.0.100.38108 > sin01s16-in-f3.1e100.net.http: Flags [P.], seq 1:228, ack 1, win 64, options [nop,nop,TS val 1874266786 ecr 2433875074], length 227: HTTP: GET /generate_204 HTTP/1.1
+02:42:52.181604 enp3s0 Out IP localhost.localdomain.38108 > sin01s16-in-f3.1e100.net.http: Flags [P.], seq 1:228, ack 1, win 64, options [nop,nop,TS val 1874266786 ecr 2433875074], length 227: HTTP: GET /generate_204 HTTP/1.1
+02:42:52.208918 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.38108: Flags [.], ack 228, win 1050, options [nop,nop,TS val 2433875145 ecr 1874266786], length 0
+02:42:52.208991 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.38108: Flags [.], ack 228, win 1050, options [nop,nop,TS val 2433875145 ecr 1874266786], length 0
+02:42:52.209010 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.38108: Flags [P.], seq 1:147, ack 228, win 1050, options [nop,nop,TS val 2433875145 ecr 1874266786], length 146: HTTP: HTTP/1.1 204 No Content
+02:42:52.209056 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.38108: Flags [F.], seq 147, ack 228, win 1050, options [nop,nop,TS val 2433875145 ecr 1874266786], length 0
+02:42:52.209175 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.38108: Flags [P.], seq 1:147, ack 228, win 1050, options [nop,nop,TS val 2433875145 ecr 1874266786], length 146: HTTP: HTTP/1.1 204 No Content
+02:42:52.209185 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.38108: Flags [F.], seq 147, ack 228, win 1050, options [nop,nop,TS val 2433875145 ecr 1874266786], length 0
+02:42:52.209951 enp3s0 Out IP localhost.localdomain.42796 > ip-api.com.http: Flags [S], seq 1545156324, win 32120, options [mss 1460,sackOK,TS val 1400309386 ecr 0,nop,wscale 7], length 0
+02:42:52.219418 wlp2s0 In  IP 10.0.0.100.38108 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 147, win 66, options [nop,nop,TS val 1874266858 ecr 2433875145], length 0
+02:42:52.219536 enp3s0 Out IP localhost.localdomain.38108 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 147, win 66, options [nop,nop,TS val 1874266858 ecr 2433875145], length 0
+02:42:52.223645 wlp2s0 In  IP 10.0.0.100.38108 > sin01s16-in-f3.1e100.net.http: Flags [F.], seq 228, ack 147, win 66, options [nop,nop,TS val 1874266859 ecr 2433875145], length 0
+02:42:52.223717 enp3s0 Out IP localhost.localdomain.38108 > sin01s16-in-f3.1e100.net.http: Flags [F.], seq 228, ack 147, win 66, options [nop,nop,TS val 1874266859 ecr 2433875145], length 0
+02:42:52.225845 wlp2s0 In  IP 10.0.0.100.38108 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 148, win 66, options [nop,nop,TS val 1874266859 ecr 2433875145], length 0
+02:42:52.225911 enp3s0 Out IP localhost.localdomain.38108 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 148, win 66, options [nop,nop,TS val 1874266859 ecr 2433875145], length 0
+02:42:52.250680 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.38108: Flags [.], ack 229, win 1050, options [nop,nop,TS val 2433875187 ecr 1874266859], length 0
+02:42:52.250859 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.38108: Flags [.], ack 229, win 1050, options [nop,nop,TS val 2433875187 ecr 1874266859], length 0
+02:42:52.259703 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42786: Flags [S.], seq 1402825535, ack 1000281865, win 8190, options [mss 1460], length 0
+02:42:52.259725 enp3s0 Out IP localhost.localdomain.42786 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:52.259790 enp3s0 Out IP localhost.localdomain.42786 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:52.282282 enp3s0 Out IP localhost.localdomain.42804 > ip-api.com.http: Flags [S], seq 1481345168, win 32120, options [mss 1460,sackOK,TS val 1400309458 ecr 0,nop,wscale 7], length 0
+02:42:52.286810 enp3s0 Out IP localhost.localdomain.42808 > ip-api.com.http: Flags [S], seq 1159416333, win 32120, options [mss 1460,sackOK,TS val 1400309463 ecr 0,nop,wscale 7], length 0
+02:42:52.298261 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42796: Flags [S.], seq 1710569456, ack 1545156325, win 8190, options [mss 1460], length 0
+02:42:52.298281 enp3s0 Out IP localhost.localdomain.42796 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:52.298329 enp3s0 Out IP localhost.localdomain.42796 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:52.301483 wlp2s0 In  IP 10.0.0.100.48534 > kix07s06-in-f4.1e100.net.http: Flags [S], seq 1586817822, win 65535, options [mss 1460,sackOK,TS val 3275493178 ecr 0,nop,wscale 10], length 0
+02:42:52.301687 enp3s0 Out IP localhost.localdomain.48534 > kix07s06-in-f4.1e100.net.http: Flags [S], seq 1586817822, win 65535, options [mss 1460,sackOK,TS val 3275493178 ecr 0,nop,wscale 10], length 0
+02:42:52.333504 enp3s0 In  IP kix07s06-in-f4.1e100.net.http > localhost.localdomain.48534: Flags [S.], seq 2912710407, ack 1586817823, win 65535, options [mss 1412,sackOK,TS val 4084647830 ecr 3275493178,nop,wscale 8], length 0
+02:42:52.333770 wlp2s0 Out IP kix07s06-in-f4.1e100.net.http > 10.0.0.100.48534: Flags [S.], seq 2912710407, ack 1586817823, win 65535, options [mss 1412,sackOK,TS val 4084647830 ecr 3275493178,nop,wscale 8], length 0
+02:42:52.337891 wlp2s0 In  IP 10.0.0.100.48534 > kix07s06-in-f4.1e100.net.http: Flags [.], ack 1, win 64, options [nop,nop,TS val 3275493215 ecr 4084647830], length 0
+02:42:52.338021 enp3s0 Out IP localhost.localdomain.48534 > kix07s06-in-f4.1e100.net.http: Flags [.], ack 1, win 64, options [nop,nop,TS val 3275493215 ecr 4084647830], length 0
+02:42:52.345135 wlp2s0 In  IP 10.0.0.100.48534 > kix07s06-in-f4.1e100.net.http: Flags [P.], seq 1:208, ack 1, win 64, options [nop,nop,TS val 3275493215 ecr 4084647830], length 207: HTTP: GET /gen_204 HTTP/1.1
+02:42:52.345365 enp3s0 Out IP localhost.localdomain.48534 > kix07s06-in-f4.1e100.net.http: Flags [P.], seq 1:208, ack 1, win 64, options [nop,nop,TS val 3275493215 ecr 4084647830], length 207: HTTP: GET /gen_204 HTTP/1.1
+02:42:52.368312 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42804: Flags [S.], seq 3942196409, ack 1481345169, win 8190, options [mss 1460], length 0
+02:42:52.368391 enp3s0 Out IP localhost.localdomain.42804 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:52.368446 enp3s0 Out IP localhost.localdomain.42804 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:52.370542 enp3s0 Out IP localhost.localdomain.56816 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:52.374388 enp3s0 Out IP localhost.localdomain.42822 > ip-api.com.http: Flags [S], seq 1255163809, win 32120, options [mss 1460,sackOK,TS val 1400309550 ecr 0,nop,wscale 7], length 0
+02:42:52.376596 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42808: Flags [S.], seq 4107582558, ack 1159416334, win 8190, options [mss 1460], length 0
+02:42:52.376631 enp3s0 Out IP localhost.localdomain.42808 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:52.376681 enp3s0 Out IP localhost.localdomain.42808 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:52.377124 enp3s0 In  IP kix07s06-in-f4.1e100.net.http > localhost.localdomain.48534: Flags [.], ack 208, win 1050, options [nop,nop,TS val 4084647874 ecr 3275493215], length 0
+02:42:52.377276 wlp2s0 Out IP kix07s06-in-f4.1e100.net.http > 10.0.0.100.48534: Flags [.], ack 208, win 1050, options [nop,nop,TS val 4084647874 ecr 3275493215], length 0
+02:42:52.406643 enp3s0 Out IP localhost.localdomain.42828 > ip-api.com.http: Flags [S], seq 3572650788, win 32120, options [mss 1460,sackOK,TS val 1400309583 ecr 0,nop,wscale 7], length 0
+02:42:52.413507 enp3s0 In  IP kix07s06-in-f4.1e100.net.http > localhost.localdomain.48534: Flags [P.], seq 1:467, ack 208, win 1050, options [nop,nop,TS val 4084647910 ecr 3275493215], length 466: HTTP: HTTP/1.1 204 No Content
+02:42:52.413568 enp3s0 In  IP kix07s06-in-f4.1e100.net.http > localhost.localdomain.48534: Flags [F.], seq 467, ack 208, win 1050, options [nop,nop,TS val 4084647910 ecr 3275493215], length 0
+02:42:52.413870 wlp2s0 Out IP kix07s06-in-f4.1e100.net.http > 10.0.0.100.48534: Flags [P.], seq 1:467, ack 208, win 1050, options [nop,nop,TS val 4084647910 ecr 3275493215], length 466: HTTP: HTTP/1.1 204 No Content
+02:42:52.413906 wlp2s0 Out IP kix07s06-in-f4.1e100.net.http > 10.0.0.100.48534: Flags [F.], seq 467, ack 208, win 1050, options [nop,nop,TS val 4084647910 ecr 3275493215], length 0
+02:42:52.421248 wlp2s0 In  IP 10.0.0.100.48534 > kix07s06-in-f4.1e100.net.http: Flags [.], ack 467, win 66, options [nop,nop,TS val 3275493299 ecr 4084647910], length 0
+02:42:52.421364 enp3s0 Out IP localhost.localdomain.48534 > kix07s06-in-f4.1e100.net.http: Flags [.], ack 467, win 66, options [nop,nop,TS val 3275493299 ecr 4084647910], length 0
+02:42:52.421843 wlp2s0 In  IP 10.0.0.100.48534 > kix07s06-in-f4.1e100.net.http: Flags [F.], seq 208, ack 468, win 66, options [nop,nop,TS val 3275493300 ecr 4084647910], length 0
+02:42:52.421911 enp3s0 Out IP localhost.localdomain.48534 > kix07s06-in-f4.1e100.net.http: Flags [F.], seq 208, ack 468, win 66, options [nop,nop,TS val 3275493300 ecr 4084647910], length 0
+02:42:52.434567 enp3s0 Out IP localhost.localdomain.56848 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:52.434577 enp3s0 Out IP localhost.localdomain.56832 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:52.434599 enp3s0 Out IP localhost.localdomain.56836 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:52.452853 enp3s0 In  IP kix07s06-in-f4.1e100.net.http > localhost.localdomain.48534: Flags [.], ack 209, win 1050, options [nop,nop,TS val 4084647950 ecr 3275493300], length 0
+02:42:52.452959 wlp2s0 Out IP kix07s06-in-f4.1e100.net.http > 10.0.0.100.48534: Flags [.], ack 209, win 1050, options [nop,nop,TS val 4084647950 ecr 3275493300], length 0
+02:42:52.464991 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42822: Flags [S.], seq 2759590773, ack 1255163810, win 8190, options [mss 1460], length 0
+02:42:52.465064 enp3s0 Out IP localhost.localdomain.42822 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:52.465126 enp3s0 Out IP localhost.localdomain.42822 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:52.488055 enp3s0 Out IP localhost.localdomain.42830 > ip-api.com.http: Flags [S], seq 2319494889, win 32120, options [mss 1460,sackOK,TS val 1400309664 ecr 0,nop,wscale 7], length 0
+02:42:52.488097 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42828: Flags [S.], seq 2251946367, ack 3572650789, win 8190, options [mss 1460], length 0
+02:42:52.488107 enp3s0 Out IP localhost.localdomain.42828 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:52.488130 enp3s0 Out IP localhost.localdomain.42828 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:52.490219 enp3s0 Out IP localhost.localdomain.42842 > ip-api.com.http: Flags [S], seq 3536281679, win 32120, options [mss 1460,sackOK,TS val 1400309666 ecr 0,nop,wscale 7], length 0
+02:42:52.499553 enp3s0 Out IP localhost.localdomain.56864 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:52.562613 enp3s0 Out IP localhost.localdomain.56884 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:52.562616 enp3s0 Out IP localhost.localdomain.56882 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:52.563557 enp3s0 Out IP localhost.localdomain.56872 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:52.571032 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42842: Flags [S.], seq 1063000586, ack 3536281680, win 8190, options [mss 1460], length 0
+02:42:52.571091 enp3s0 Out IP localhost.localdomain.42842 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:52.571150 enp3s0 Out IP localhost.localdomain.42842 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:52.571663 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42830: Flags [S.], seq 2927109099, ack 2319494890, win 8190, options [mss 1460], length 0
+02:42:52.571677 enp3s0 Out IP localhost.localdomain.42830 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:52.571751 enp3s0 Out IP localhost.localdomain.42830 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:52.594567 enp3s0 Out IP localhost.localdomain.42786 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:52.626642 enp3s0 Out IP localhost.localdomain.42796 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:52.698715 enp3s0 Out IP localhost.localdomain.42804 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:52.706601 enp3s0 Out IP localhost.localdomain.42808 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:52.794775 enp3s0 Out IP localhost.localdomain.42822 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:52.818557 enp3s0 Out IP localhost.localdomain.42828 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:52.898537 enp3s0 Out IP localhost.localdomain.42842 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:52.906608 enp3s0 Out IP localhost.localdomain.42830 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:53.202547 enp3s0 Out IP localhost.localdomain.56890 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:53.202561 enp3s0 Out IP localhost.localdomain.56892 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:53.266549 enp3s0 Out IP localhost.localdomain.42786 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:53.266554 enp3s0 Out IP localhost.localdomain.56796 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:53.330553 enp3s0 Out IP localhost.localdomain.42796 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:53.330557 enp3s0 Out IP localhost.localdomain.56802 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:53.330563 enp3s0 Out IP localhost.localdomain.56778 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:53.394553 enp3s0 Out IP localhost.localdomain.56812 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:53.394557 enp3s0 Out IP localhost.localdomain.42804 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:53.394561 enp3s0 Out IP localhost.localdomain.56810 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:53.394564 enp3s0 Out IP localhost.localdomain.56808 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:53.394564 enp3s0 Out IP localhost.localdomain.42808 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:53.458552 enp3s0 Out IP localhost.localdomain.42822 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:53.522575 enp3s0 Out IP localhost.localdomain.42828 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:53.586554 enp3s0 Out IP localhost.localdomain.42842 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:53.586562 enp3s0 Out IP localhost.localdomain.42830 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:53.842561 enp3s0 Out IP localhost.localdomain.42768 > ip-api.com.http: Flags [P.], seq 3755083791:3755083951, ack 3159098879, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:54.610589 enp3s0 Out IP localhost.localdomain.42786 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:54.674723 enp3s0 Out IP localhost.localdomain.42796 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:54.738535 enp3s0 Out IP localhost.localdomain.42804 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:54.738537 enp3s0 Out IP localhost.localdomain.42808 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:54.751747 enp3s0 Out IP localhost.localdomain.42848 > ip-api.com.http: Flags [S], seq 1356204433, win 32120, options [mss 1460,sackOK,TS val 1400311928 ecr 0,nop,wscale 7], length 0
+02:42:54.802587 enp3s0 Out IP localhost.localdomain.42822 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:54.841783 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42848: Flags [S.], seq 3666201541, ack 1356204434, win 8190, options [mss 1460], length 0
+02:42:54.841818 enp3s0 Out IP localhost.localdomain.42848 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:54.841894 enp3s0 Out IP localhost.localdomain.42848 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:54.866661 enp3s0 Out IP localhost.localdomain.42784 > ip-api.com.http: Flags [P.], seq 395806875:395807035, ack 2076627957, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:54.866664 enp3s0 Out IP localhost.localdomain.42770 > ip-api.com.http: Flags [P.], seq 2474652234:2474652394, ack 2483886305, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:54.866674 enp3s0 Out IP localhost.localdomain.42828 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:54.930650 enp3s0 Out IP localhost.localdomain.42842 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:54.930665 enp3s0 Out IP localhost.localdomain.42830 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:54.994619 enp3s0 Out IP localhost.localdomain.56816 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:55.058574 enp3s0 Out IP localhost.localdomain.56848 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:55.058578 enp3s0 Out IP localhost.localdomain.56832 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:55.058585 enp3s0 Out IP localhost.localdomain.56836 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:55.122625 enp3s0 Out IP localhost.localdomain.56864 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:55.170727 enp3s0 Out IP localhost.localdomain.42848 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:55.186668 enp3s0 Out IP localhost.localdomain.56884 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:55.186672 enp3s0 Out IP localhost.localdomain.56882 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:55.186672 enp3s0 Out IP localhost.localdomain.56872 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:55.826594 enp3s0 Out IP localhost.localdomain.56890 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:55.826609 enp3s0 Out IP localhost.localdomain.42848 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:55.826614 enp3s0 Out IP localhost.localdomain.56892 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:56.457672 wlp2s0 In  IP 10.0.0.100.38112 > sin01s16-in-f3.1e100.net.http: Flags [S], seq 731461329, win 65535, options [mss 1460,sackOK,TS val 1874271099 ecr 0,nop,wscale 10], length 0
+02:42:56.458002 enp3s0 Out IP localhost.localdomain.38112 > sin01s16-in-f3.1e100.net.http: Flags [S], seq 731461329, win 65535, options [mss 1460,sackOK,TS val 1874271099 ecr 0,nop,wscale 10], length 0
+02:42:56.489994 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.38112: Flags [S.], seq 970558362, ack 731461330, win 65535, options [mss 1412,sackOK,TS val 4070732201 ecr 1874271099,nop,wscale 8], length 0
+02:42:56.490226 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.38112: Flags [S.], seq 970558362, ack 731461330, win 65535, options [mss 1412,sackOK,TS val 4070732201 ecr 1874271099,nop,wscale 8], length 0
+02:42:56.499462 wlp2s0 In  IP 10.0.0.100.38112 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 1, win 64, options [nop,nop,TS val 1874271142 ecr 4070732201], length 0
+02:42:56.499558 enp3s0 Out IP localhost.localdomain.38112 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 1, win 64, options [nop,nop,TS val 1874271142 ecr 4070732201], length 0
+02:42:56.509866 wlp2s0 In  IP 10.0.0.100.38112 > sin01s16-in-f3.1e100.net.http: Flags [P.], seq 1:228, ack 1, win 64, options [nop,nop,TS val 1874271152 ecr 4070732201], length 227: HTTP: GET /generate_204 HTTP/1.1
+02:42:56.510050 enp3s0 Out IP localhost.localdomain.38112 > sin01s16-in-f3.1e100.net.http: Flags [P.], seq 1:228, ack 1, win 64, options [nop,nop,TS val 1874271152 ecr 4070732201], length 227: HTTP: GET /generate_204 HTTP/1.1
+02:42:56.535878 enp3s0 Out IP localhost.localdomain.42862 > ip-api.com.http: Flags [S], seq 1535859280, win 32120, options [mss 1460,sackOK,TS val 1400313712 ecr 0,nop,wscale 7], length 0
+02:42:56.542300 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.38112: Flags [.], ack 228, win 1050, options [nop,nop,TS val 4070732253 ecr 1874271152], length 0
+02:42:56.542378 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.38112: Flags [.], ack 228, win 1050, options [nop,nop,TS val 4070732253 ecr 1874271152], length 0
+02:42:56.542408 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.38112: Flags [P.], seq 1:147, ack 228, win 1050, options [nop,nop,TS val 4070732253 ecr 1874271152], length 146: HTTP: HTTP/1.1 204 No Content
+02:42:56.542454 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.38112: Flags [F.], seq 147, ack 228, win 1050, options [nop,nop,TS val 4070732253 ecr 1874271152], length 0
+02:42:56.542577 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.38112: Flags [P.], seq 1:147, ack 228, win 1050, options [nop,nop,TS val 4070732253 ecr 1874271152], length 146: HTTP: HTTP/1.1 204 No Content
+02:42:56.542584 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.38112: Flags [F.], seq 147, ack 228, win 1050, options [nop,nop,TS val 4070732253 ecr 1874271152], length 0
+02:42:56.546295 wlp2s0 In  IP 10.0.0.100.38112 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 147, win 66, options [nop,nop,TS val 1874271191 ecr 4070732253], length 0
+02:42:56.546411 enp3s0 Out IP localhost.localdomain.38112 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 147, win 66, options [nop,nop,TS val 1874271191 ecr 4070732253], length 0
+02:42:56.553320 wlp2s0 In  IP 10.0.0.100.38112 > sin01s16-in-f3.1e100.net.http: Flags [F.], seq 228, ack 148, win 66, options [nop,nop,TS val 1874271198 ecr 4070732253], length 0
+02:42:56.553404 enp3s0 Out IP localhost.localdomain.38112 > sin01s16-in-f3.1e100.net.http: Flags [F.], seq 228, ack 148, win 66, options [nop,nop,TS val 1874271198 ecr 4070732253], length 0
+02:42:56.560089 enp3s0 Out IP localhost.localdomain.42872 > ip-api.com.http: Flags [S], seq 1460774034, win 32120, options [mss 1460,sackOK,TS val 1400313736 ecr 0,nop,wscale 7], length 0
+02:42:56.585075 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.38112: Flags [.], ack 229, win 1050, options [nop,nop,TS val 4070732296 ecr 1874271198], length 0
+02:42:56.585168 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.38112: Flags [.], ack 229, win 1050, options [nop,nop,TS val 4070732296 ecr 1874271198], length 0
+02:42:56.612318 wlp2s0 In  IP 10.0.0.100.48544 > kix07s06-in-f4.1e100.net.http: Flags [S], seq 963046747, win 65535, options [mss 1460,sackOK,TS val 3275497490 ecr 0,nop,wscale 10], length 0
+02:42:56.612569 enp3s0 Out IP localhost.localdomain.48544 > kix07s06-in-f4.1e100.net.http: Flags [S], seq 963046747, win 65535, options [mss 1460,sackOK,TS val 3275497490 ecr 0,nop,wscale 10], length 0
+02:42:56.618032 enp3s0 Out IP localhost.localdomain.42884 > ip-api.com.http: Flags [S], seq 3321576635, win 32120, options [mss 1460,sackOK,TS val 1400313794 ecr 0,nop,wscale 7], length 0
+02:42:56.621741 enp3s0 Out IP localhost.localdomain.42900 > ip-api.com.http: Flags [S], seq 2428852589, win 32120, options [mss 1460,sackOK,TS val 1400313798 ecr 0,nop,wscale 7], length 0
+02:42:56.625562 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42862: Flags [S.], seq 3975603495, ack 1535859281, win 8190, options [mss 1460], length 0
+02:42:56.625606 enp3s0 Out IP localhost.localdomain.42862 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:56.625672 enp3s0 Out IP localhost.localdomain.42862 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:56.644058 enp3s0 In  IP kix07s06-in-f4.1e100.net.http > localhost.localdomain.48544: Flags [S.], seq 1322572250, ack 963046748, win 65535, options [mss 1412,sackOK,TS val 2252975787 ecr 3275497490,nop,wscale 8], length 0
+02:42:56.644366 wlp2s0 Out IP kix07s06-in-f4.1e100.net.http > 10.0.0.100.48544: Flags [S.], seq 1322572250, ack 963046748, win 65535, options [mss 1412,sackOK,TS val 2252975787 ecr 3275497490,nop,wscale 8], length 0
+02:42:56.648833 wlp2s0 In  IP 10.0.0.100.48544 > kix07s06-in-f4.1e100.net.http: Flags [.], ack 1, win 64, options [nop,nop,TS val 3275497527 ecr 2252975787], length 0
+02:42:56.649034 enp3s0 Out IP localhost.localdomain.48544 > kix07s06-in-f4.1e100.net.http: Flags [.], ack 1, win 64, options [nop,nop,TS val 3275497527 ecr 2252975787], length 0
+02:42:56.654618 wlp2s0 In  IP 10.0.0.100.48544 > kix07s06-in-f4.1e100.net.http: Flags [P.], seq 1:208, ack 1, win 64, options [nop,nop,TS val 3275497528 ecr 2252975787], length 207: HTTP: GET /gen_204 HTTP/1.1
+02:42:56.654838 enp3s0 Out IP localhost.localdomain.48544 > kix07s06-in-f4.1e100.net.http: Flags [P.], seq 1:208, ack 1, win 64, options [nop,nop,TS val 3275497528 ecr 2252975787], length 207: HTTP: GET /gen_204 HTTP/1.1
+02:42:56.656848 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42872: Flags [S.], seq 1436339195, ack 1460774035, win 8190, options [mss 1460], length 0
+02:42:56.656870 enp3s0 Out IP localhost.localdomain.42872 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:56.656936 enp3s0 Out IP localhost.localdomain.42872 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:56.685454 enp3s0 Out IP localhost.localdomain.42908 > ip-api.com.http: Flags [S], seq 1840146982, win 32120, options [mss 1460,sackOK,TS val 1400313861 ecr 0,nop,wscale 7], length 0
+02:42:56.685780 enp3s0 In  IP kix07s06-in-f4.1e100.net.http > localhost.localdomain.48544: Flags [.], ack 208, win 1050, options [nop,nop,TS val 2252975828 ecr 3275497528], length 0
+02:42:56.685920 wlp2s0 Out IP kix07s06-in-f4.1e100.net.http > 10.0.0.100.48544: Flags [.], ack 208, win 1050, options [nop,nop,TS val 2252975828 ecr 3275497528], length 0
+02:42:56.707387 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42884: Flags [S.], seq 4257712785, ack 3321576636, win 8190, options [mss 1460], length 0
+02:42:56.707456 enp3s0 Out IP localhost.localdomain.42884 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:56.707508 enp3s0 Out IP localhost.localdomain.42884 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:56.716872 enp3s0 Out IP localhost.localdomain.42914 > ip-api.com.http: Flags [S], seq 3509741274, win 32120, options [mss 1460,sackOK,TS val 1400313893 ecr 0,nop,wscale 7], length 0
+02:42:56.718091 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42900: Flags [S.], seq 2027129772, ack 2428852590, win 8190, options [mss 1460], length 0
+02:42:56.718146 enp3s0 Out IP localhost.localdomain.42900 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:56.718210 enp3s0 Out IP localhost.localdomain.42900 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:56.722640 enp3s0 In  IP kix07s06-in-f4.1e100.net.http > localhost.localdomain.48544: Flags [P.], seq 1:467, ack 208, win 1050, options [nop,nop,TS val 2252975865 ecr 3275497528], length 466: HTTP: HTTP/1.1 204 No Content
+02:42:56.722844 enp3s0 In  IP kix07s06-in-f4.1e100.net.http > localhost.localdomain.48544: Flags [F.], seq 467, ack 208, win 1050, options [nop,nop,TS val 2252975865 ecr 3275497528], length 0
+02:42:56.722970 wlp2s0 Out IP kix07s06-in-f4.1e100.net.http > 10.0.0.100.48544: Flags [P.], seq 1:467, ack 208, win 1050, options [nop,nop,TS val 2252975865 ecr 3275497528], length 466: HTTP: HTTP/1.1 204 No Content
+02:42:56.722983 wlp2s0 Out IP kix07s06-in-f4.1e100.net.http > 10.0.0.100.48544: Flags [F.], seq 467, ack 208, win 1050, options [nop,nop,TS val 2252975865 ecr 3275497528], length 0
+02:42:56.729542 wlp2s0 In  IP 10.0.0.100.48544 > kix07s06-in-f4.1e100.net.http: Flags [.], ack 467, win 66, options [nop,nop,TS val 3275497607 ecr 2252975865], length 0
+02:42:56.729677 enp3s0 Out IP localhost.localdomain.48544 > kix07s06-in-f4.1e100.net.http: Flags [.], ack 467, win 66, options [nop,nop,TS val 3275497607 ecr 2252975865], length 0
+02:42:56.733365 wlp2s0 In  IP 10.0.0.100.48544 > kix07s06-in-f4.1e100.net.http: Flags [F.], seq 208, ack 468, win 66, options [nop,nop,TS val 3275497607 ecr 2252975865], length 0
+02:42:56.733463 enp3s0 Out IP localhost.localdomain.48544 > kix07s06-in-f4.1e100.net.http: Flags [F.], seq 208, ack 468, win 66, options [nop,nop,TS val 3275497607 ecr 2252975865], length 0
+02:42:56.764383 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42908: Flags [S.], seq 1926000945, ack 1840146983, win 8190, options [mss 1460], length 0
+02:42:56.764446 enp3s0 Out IP localhost.localdomain.42908 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:56.764515 enp3s0 Out IP localhost.localdomain.42908 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:56.764683 enp3s0 In  IP kix07s06-in-f4.1e100.net.http > localhost.localdomain.48544: Flags [.], ack 209, win 1050, options [nop,nop,TS val 2252975907 ecr 3275497607], length 0
+02:42:56.764784 wlp2s0 Out IP kix07s06-in-f4.1e100.net.http > 10.0.0.100.48544: Flags [.], ack 209, win 1050, options [nop,nop,TS val 2252975907 ecr 3275497607], length 0
+02:42:56.792513 enp3s0 Out IP localhost.localdomain.42918 > ip-api.com.http: Flags [S], seq 1295190230, win 32120, options [mss 1460,sackOK,TS val 1400313968 ecr 0,nop,wscale 7], length 0
+02:42:56.799176 enp3s0 Out IP localhost.localdomain.42920 > ip-api.com.http: Flags [S], seq 2059602605, win 32120, options [mss 1460,sackOK,TS val 1400313975 ecr 0,nop,wscale 7], length 0
+02:42:56.806321 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42914: Flags [S.], seq 2201048688, ack 3509741275, win 8190, options [mss 1460], length 0
+02:42:56.806334 enp3s0 Out IP localhost.localdomain.42914 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:56.806395 enp3s0 Out IP localhost.localdomain.42914 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:56.873603 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42918: Flags [S.], seq 2535042000, ack 1295190231, win 8190, options [mss 1460], length 0
+02:42:56.873636 enp3s0 Out IP localhost.localdomain.42918 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:56.873699 enp3s0 Out IP localhost.localdomain.42918 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:56.890078 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42920: Flags [S.], seq 2707936392, ack 2059602606, win 8190, options [mss 1460], length 0
+02:42:56.890137 enp3s0 Out IP localhost.localdomain.42920 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:56.890198 enp3s0 Out IP localhost.localdomain.42920 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:56.914610 enp3s0 Out IP localhost.localdomain.42824 > ip-api.com.http: Flags [P.], seq 624821419:624821579, ack 2451324254, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:56.914614 enp3s0 Out IP localhost.localdomain.42826 > ip-api.com.http: Flags [P.], seq 211305413:211305573, ack 3125370219, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:56.914619 enp3s0 Out IP localhost.localdomain.42800 > ip-api.com.http: Flags [P.], seq 1609426141:1609426301, ack 4275493722, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:56.914624 enp3s0 Out IP localhost.localdomain.42810 > ip-api.com.http: Flags [P.], seq 794484955:794485115, ack 3699782097, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:56.954580 enp3s0 Out IP localhost.localdomain.42862 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:56.986602 enp3s0 Out IP localhost.localdomain.42872 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:57.034717 enp3s0 Out IP localhost.localdomain.42884 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:57.050620 enp3s0 Out IP localhost.localdomain.42900 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:57.098642 enp3s0 Out IP localhost.localdomain.42908 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:57.138655 enp3s0 Out IP localhost.localdomain.42914 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:57.170622 enp3s0 Out IP localhost.localdomain.42848 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:57.202606 enp3s0 Out IP localhost.localdomain.42918 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:57.218581 enp3s0 Out IP localhost.localdomain.42920 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:57.234569 enp3s0 Out IP localhost.localdomain.42786 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:57.298705 enp3s0 Out IP localhost.localdomain.42796 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:57.362668 enp3s0 Out IP localhost.localdomain.42804 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:57.362671 enp3s0 Out IP localhost.localdomain.42808 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:57.426669 enp3s0 Out IP localhost.localdomain.42860 > ip-api.com.http: Flags [P.], seq 3471195101:3471195261, ack 3299386355, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:57.426676 enp3s0 Out IP localhost.localdomain.42854 > ip-api.com.http: Flags [P.], seq 1781741224:1781741384, ack 3875160071, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:57.426676 enp3s0 Out IP localhost.localdomain.42822 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:57.426676 enp3s0 Out IP localhost.localdomain.42840 > ip-api.com.http: Flags [P.], seq 3167339911:3167340071, ack 385980571, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:57.426683 enp3s0 Out IP localhost.localdomain.42858 > ip-api.com.http: Flags [P.], seq 1860841575:1860841735, ack 4175305918, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:57.490638 enp3s0 Out IP localhost.localdomain.42828 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:57.554634 enp3s0 Out IP localhost.localdomain.42830 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:57.554637 enp3s0 Out IP localhost.localdomain.42842 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:57.618546 enp3s0 Out IP localhost.localdomain.42862 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:57.682570 enp3s0 Out IP localhost.localdomain.42872 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:57.732751 enp3s0 Out IP localhost.localdomain.42934 > ip-api.com.http: Flags [S], seq 245836293, win 32120, options [mss 1460,sackOK,TS val 1400314909 ecr 0,nop,wscale 7], length 0
+02:42:57.747617 enp3s0 Out IP localhost.localdomain.42900 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:57.747638 enp3s0 Out IP localhost.localdomain.42884 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:57.810545 enp3s0 Out IP localhost.localdomain.42914 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:57.810558 enp3s0 Out IP localhost.localdomain.42908 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:57.815452 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42934: Flags [S.], seq 302509544, ack 245836294, win 8190, options [mss 1460], length 0
+02:42:57.815489 enp3s0 Out IP localhost.localdomain.42934 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:57.815563 enp3s0 Out IP localhost.localdomain.42934 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:57.875567 enp3s0 Out IP localhost.localdomain.42918 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:57.875586 enp3s0 Out IP localhost.localdomain.42920 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:57.938612 enp3s0 Out IP localhost.localdomain.56796 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:58.146599 enp3s0 Out IP localhost.localdomain.42934 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:58.450548 enp3s0 Out IP localhost.localdomain.56810 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:58.450554 enp3s0 Out IP localhost.localdomain.56778 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:58.450565 enp3s0 Out IP localhost.localdomain.56808 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:42:58.450569 enp3s0 Out IP localhost.localdomain.56812 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:58.450572 enp3s0 Out IP localhost.localdomain.56802 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:58.834551 enp3s0 Out IP localhost.localdomain.42934 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:58.962554 enp3s0 Out IP localhost.localdomain.42862 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:59.026539 enp3s0 Out IP localhost.localdomain.42872 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:59.090532 enp3s0 Out IP localhost.localdomain.42884 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:59.090537 enp3s0 Out IP localhost.localdomain.42900 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:42:59.091644 enp3s0 Out IP localhost.localdomain.42940 > ip-api.com.http: Flags [S], seq 1714264599, win 32120, options [mss 1460,sackOK,TS val 1400316268 ecr 0,nop,wscale 7], length 0
+02:42:59.095325 enp3s0 Out IP localhost.localdomain.42944 > ip-api.com.http: Flags [S], seq 3832855264, win 32120, options [mss 1460,sackOK,TS val 1400316271 ecr 0,nop,wscale 7], length 0
+02:42:59.154542 enp3s0 Out IP localhost.localdomain.42914 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:59.154546 enp3s0 Out IP localhost.localdomain.42908 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:59.174596 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42940: Flags [S.], seq 810201973, ack 1714264600, win 8190, options [mss 1460], length 0
+02:42:59.174617 enp3s0 Out IP localhost.localdomain.42940 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:59.174715 enp3s0 Out IP localhost.localdomain.42940 > ip-api.com.http: Flags [P.], seq 1:159, ack 1, win 32120, length 158: HTTP: GET /json/121.53.93.47 HTTP/1.1
+02:42:59.183426 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42944: Flags [S.], seq 1218643548, ack 3832855265, win 8190, options [mss 1460], length 0
+02:42:59.183452 enp3s0 Out IP localhost.localdomain.42944 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:59.183534 enp3s0 Out IP localhost.localdomain.42944 > ip-api.com.http: Flags [P.], seq 1:159, ack 1, win 32120, length 158: HTTP: GET /json/121.53.93.47 HTTP/1.1
+02:42:59.219555 enp3s0 Out IP localhost.localdomain.42920 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:59.219563 enp3s0 Out IP localhost.localdomain.42918 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:42:59.240154 enp3s0 Out IP localhost.localdomain.42952 > ip-api.com.http: Flags [S], seq 300087094, win 32120, options [mss 1460,sackOK,TS val 1400316416 ecr 0,nop,wscale 7], length 0
+02:42:59.244255 enp3s0 Out IP localhost.localdomain.42960 > ip-api.com.http: Flags [S], seq 2640671970, win 32120, options [mss 1460,sackOK,TS val 1400316420 ecr 0,nop,wscale 7], length 0
+02:42:59.324496 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42960: Flags [S.], seq 3451432117, ack 2640671971, win 8190, options [mss 1460], length 0
+02:42:59.324555 enp3s0 Out IP localhost.localdomain.42960 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:59.324652 enp3s0 Out IP localhost.localdomain.42960 > ip-api.com.http: Flags [P.], seq 1:159, ack 1, win 32120, length 158: HTTP: GET /json/27.0.238.147 HTTP/1.1
+02:42:59.329631 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42952: Flags [S.], seq 1117880924, ack 300087095, win 8190, options [mss 1460], length 0
+02:42:59.329685 enp3s0 Out IP localhost.localdomain.42952 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:42:59.329773 enp3s0 Out IP localhost.localdomain.42952 > ip-api.com.http: Flags [P.], seq 1:159, ack 1, win 32120, length 158: HTTP: GET /json/27.0.238.147 HTTP/1.1
+02:42:59.506571 enp3s0 Out IP localhost.localdomain.42940 > ip-api.com.http: Flags [P.], seq 1:159, ack 1, win 32120, length 158: HTTP: GET /json/121.53.93.47 HTTP/1.1
+02:42:59.514726 enp3s0 Out IP localhost.localdomain.42944 > ip-api.com.http: Flags [P.], seq 1:159, ack 1, win 32120, length 158: HTTP: GET /json/121.53.93.47 HTTP/1.1
+02:42:59.658599 enp3s0 Out IP localhost.localdomain.42960 > ip-api.com.http: Flags [P.], seq 1:159, ack 1, win 32120, length 158: HTTP: GET /json/27.0.238.147 HTTP/1.1
+02:42:59.658603 enp3s0 Out IP localhost.localdomain.42952 > ip-api.com.http: Flags [P.], seq 1:159, ack 1, win 32120, length 158: HTTP: GET /json/27.0.238.147 HTTP/1.1
+02:42:59.794533 enp3s0 Out IP localhost.localdomain.42848 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:00.178536 enp3s0 Out IP localhost.localdomain.42944 > ip-api.com.http: Flags [P.], seq 1:159, ack 1, win 32120, length 158: HTTP: GET /json/121.53.93.47 HTTP/1.1
+02:43:00.178540 enp3s0 Out IP localhost.localdomain.42940 > ip-api.com.http: Flags [P.], seq 1:159, ack 1, win 32120, length 158: HTTP: GET /json/121.53.93.47 HTTP/1.1
+02:43:00.178541 enp3s0 Out IP localhost.localdomain.42934 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:00.370541 enp3s0 Out IP localhost.localdomain.42952 > ip-api.com.http: Flags [P.], seq 1:159, ack 1, win 32120, length 158: HTTP: GET /json/27.0.238.147 HTTP/1.1
+02:43:00.370558 enp3s0 Out IP localhost.localdomain.42960 > ip-api.com.http: Flags [P.], seq 1:159, ack 1, win 32120, length 158: HTTP: GET /json/27.0.238.147 HTTP/1.1
+02:43:00.498591 enp3s0 Out IP localhost.localdomain.56832 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:00.498610 enp3s0 Out IP localhost.localdomain.56882 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:43:00.498613 enp3s0 Out IP localhost.localdomain.56884 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:43:00.498617 enp3s0 Out IP localhost.localdomain.56872 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:43:00.498619 enp3s0 Out IP localhost.localdomain.56836 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:00.498621 enp3s0 Out IP localhost.localdomain.56816 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:00.498625 enp3s0 Out IP localhost.localdomain.56864 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:43:00.498628 enp3s0 Out IP localhost.localdomain.56848 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:00.721167 enp3s0 Out IP localhost.localdomain.42966 > ip-api.com.http: Flags [S], seq 84756226, win 32120, options [mss 1460,sackOK,TS val 1400317897 ecr 0,nop,wscale 7], length 0
+02:43:00.812527 enp3s0 In  IP ip-api.com.http > localhost.localdomain.42966: Flags [S.], seq 4056558496, ack 84756227, win 8190, options [mss 1460], length 0
+02:43:00.812588 enp3s0 Out IP localhost.localdomain.42966 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:43:00.812679 enp3s0 Out IP localhost.localdomain.42966 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:01.010658 enp3s0 Out IP localhost.localdomain.40918 > ip-api.com.http: Flags [P.], seq 4150826786:4150826946, ack 3498299505, win 32120, length 160: HTTP: GET /json/216.239.36.223 HTTP/1.1
+02:43:01.146579 enp3s0 Out IP localhost.localdomain.42966 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:01.522671 enp3s0 Out IP localhost.localdomain.42940 > ip-api.com.http: Flags [P.], seq 1:159, ack 1, win 32120, length 158: HTTP: GET /json/121.53.93.47 HTTP/1.1
+02:43:01.522677 enp3s0 Out IP localhost.localdomain.56890 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:01.522677 enp3s0 Out IP localhost.localdomain.56892 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:01.522678 enp3s0 Out IP localhost.localdomain.42944 > ip-api.com.http: Flags [P.], seq 1:159, ack 1, win 32120, length 158: HTTP: GET /json/121.53.93.47 HTTP/1.1
+02:43:01.586544 enp3s0 Out IP localhost.localdomain.42862 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:01.650687 enp3s0 Out IP localhost.localdomain.42872 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:01.714660 enp3s0 Out IP localhost.localdomain.42900 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:01.714663 enp3s0 Out IP localhost.localdomain.42960 > ip-api.com.http: Flags [P.], seq 1:159, ack 1, win 32120, length 158: HTTP: GET /json/27.0.238.147 HTTP/1.1
+02:43:01.714667 enp3s0 Out IP localhost.localdomain.42884 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:01.715635 enp3s0 Out IP localhost.localdomain.42952 > ip-api.com.http: Flags [P.], seq 1:159, ack 1, win 32120, length 158: HTTP: GET /json/27.0.238.147 HTTP/1.1
+02:43:01.778588 enp3s0 Out IP localhost.localdomain.42908 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:01.778605 enp3s0 Out IP localhost.localdomain.42914 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:01.842658 enp3s0 Out IP localhost.localdomain.42966 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:01.842663 enp3s0 Out IP localhost.localdomain.42918 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:01.842664 enp3s0 Out IP localhost.localdomain.42920 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:02.546650 enp3s0 Out IP localhost.localdomain.42786 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:02.546664 enp3s0 Out IP localhost.localdomain.42796 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:02.802636 enp3s0 Out IP localhost.localdomain.42934 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:03.058576 enp3s0 Out IP localhost.localdomain.42830 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:03.058581 enp3s0 Out IP localhost.localdomain.42822 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:03.059565 enp3s0 Out IP localhost.localdomain.42808 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:03.059611 enp3s0 Out IP localhost.localdomain.42828 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:03.059615 enp3s0 Out IP localhost.localdomain.42842 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:03.059619 enp3s0 Out IP localhost.localdomain.42804 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:03.186588 enp3s0 Out IP localhost.localdomain.42966 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:04.146536 enp3s0 Out IP localhost.localdomain.42944 > ip-api.com.http: Flags [P.], seq 1:159, ack 1, win 32120, length 158: HTTP: GET /json/121.53.93.47 HTTP/1.1
+02:43:04.146539 enp3s0 Out IP localhost.localdomain.42940 > ip-api.com.http: Flags [P.], seq 1:159, ack 1, win 32120, length 158: HTTP: GET /json/121.53.93.47 HTTP/1.1
+02:43:04.338634 enp3s0 Out IP localhost.localdomain.42960 > ip-api.com.http: Flags [P.], seq 1:159, ack 1, win 32120, length 158: HTTP: GET /json/27.0.238.147 HTTP/1.1
+02:43:04.338650 enp3s0 Out IP localhost.localdomain.42952 > ip-api.com.http: Flags [P.], seq 1:159, ack 1, win 32120, length 158: HTTP: GET /json/27.0.238.147 HTTP/1.1
+02:43:04.808475 wlp2s0 In  IP 10.0.0.100.36322 > sin01s16-in-f3.1e100.net.http: Flags [S], seq 1023994533, win 65535, options [mss 1460,sackOK,TS val 1874279399 ecr 0,nop,wscale 10], length 0
+02:43:04.808830 enp3s0 Out IP localhost.localdomain.36322 > sin01s16-in-f3.1e100.net.http: Flags [S], seq 1023994533, win 65535, options [mss 1460,sackOK,TS val 1874279399 ecr 0,nop,wscale 10], length 0
+02:43:04.834557 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.36322: Flags [S.], seq 4227813360, ack 1023994534, win 65535, options [mss 1412,sackOK,TS val 4070740546 ecr 1874279399,nop,wscale 8], length 0
+02:43:04.834774 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.36322: Flags [S.], seq 4227813360, ack 1023994534, win 65535, options [mss 1412,sackOK,TS val 4070740546 ecr 1874279399,nop,wscale 8], length 0
+02:43:04.838389 wlp2s0 In  IP 10.0.0.100.36322 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 1, win 64, options [nop,nop,TS val 1874279483 ecr 4070740546], length 0
+02:43:04.838531 enp3s0 Out IP localhost.localdomain.36322 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 1, win 64, options [nop,nop,TS val 1874279483 ecr 4070740546], length 0
+02:43:04.839972 wlp2s0 In  IP 10.0.0.100.36322 > sin01s16-in-f3.1e100.net.http: Flags [P.], seq 1:228, ack 1, win 64, options [nop,nop,TS val 1874279484 ecr 4070740546], length 227: HTTP: GET /generate_204 HTTP/1.1
+02:43:04.840174 enp3s0 Out IP localhost.localdomain.36322 > sin01s16-in-f3.1e100.net.http: Flags [P.], seq 1:228, ack 1, win 64, options [nop,nop,TS val 1874279484 ecr 4070740546], length 227: HTTP: GET /generate_204 HTTP/1.1
+02:43:04.865858 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.36322: Flags [.], ack 228, win 1050, options [nop,nop,TS val 4070740577 ecr 1874279484], length 0
+02:43:04.865965 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.36322: Flags [P.], seq 1:147, ack 228, win 1050, options [nop,nop,TS val 4070740577 ecr 1874279484], length 146: HTTP: HTTP/1.1 204 No Content
+02:43:04.866001 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.36322: Flags [.], ack 228, win 1050, options [nop,nop,TS val 4070740577 ecr 1874279484], length 0
+02:43:04.866020 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.36322: Flags [F.], seq 147, ack 228, win 1050, options [nop,nop,TS val 4070740577 ecr 1874279484], length 0
+02:43:04.866186 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.36322: Flags [P.], seq 1:147, ack 228, win 1050, options [nop,nop,TS val 4070740577 ecr 1874279484], length 146: HTTP: HTTP/1.1 204 No Content
+02:43:04.866195 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.36322: Flags [F.], seq 147, ack 228, win 1050, options [nop,nop,TS val 4070740577 ecr 1874279484], length 0
+02:43:04.872114 wlp2s0 In  IP 10.0.0.100.36322 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 147, win 66, options [nop,nop,TS val 1874279517 ecr 4070740577], length 0
+02:43:04.872232 enp3s0 Out IP localhost.localdomain.36322 > sin01s16-in-f3.1e100.net.http: Flags [.], ack 147, win 66, options [nop,nop,TS val 1874279517 ecr 4070740577], length 0
+02:43:04.872727 wlp2s0 In  IP 10.0.0.100.36322 > sin01s16-in-f3.1e100.net.http: Flags [F.], seq 228, ack 148, win 66, options [nop,nop,TS val 1874279518 ecr 4070740577], length 0
+02:43:04.872803 enp3s0 Out IP localhost.localdomain.36322 > sin01s16-in-f3.1e100.net.http: Flags [F.], seq 228, ack 148, win 66, options [nop,nop,TS val 1874279518 ecr 4070740577], length 0
+02:43:04.887158 enp3s0 Out IP localhost.localdomain.60496 > ip-api.com.http: Flags [S], seq 422930777, win 32120, options [mss 1460,sackOK,TS val 1400322063 ecr 0,nop,wscale 7], length 0
+02:43:04.898490 enp3s0 In  IP sin01s16-in-f3.1e100.net.http > localhost.localdomain.36322: Flags [.], ack 229, win 1050, options [nop,nop,TS val 4070740610 ecr 1874279518], length 0
+02:43:04.898629 wlp2s0 Out IP sin01s16-in-f3.1e100.net.http > 10.0.0.100.36322: Flags [.], ack 229, win 1050, options [nop,nop,TS val 4070740610 ecr 1874279518], length 0
+02:43:04.908835 enp3s0 Out IP localhost.localdomain.60504 > ip-api.com.http: Flags [S], seq 2981410515, win 32120, options [mss 1460,sackOK,TS val 1400322085 ecr 0,nop,wscale 7], length 0
+02:43:04.939748 enp3s0 Out IP localhost.localdomain.60512 > ip-api.com.http: Flags [S], seq 326064493, win 32120, options [mss 1460,sackOK,TS val 1400322116 ecr 0,nop,wscale 7], length 0
+02:43:04.941141 enp3s0 Out IP localhost.localdomain.60520 > ip-api.com.http: Flags [S], seq 1584766434, win 32120, options [mss 1460,sackOK,TS val 1400322117 ecr 0,nop,wscale 7], length 0
+02:43:04.948168 wlp2s0 In  IP 10.0.0.100.48760 > 216.239.38.223.http: Flags [S], seq 3841800989, win 65535, options [mss 1460,sackOK,TS val 712839331 ecr 0,nop,wscale 10], length 0
+02:43:04.948364 enp3s0 Out IP localhost.localdomain.48760 > 216.239.38.223.http: Flags [S], seq 3841800989, win 65535, options [mss 1460,sackOK,TS val 712839331 ecr 0,nop,wscale 10], length 0
+02:43:04.967079 enp3s0 In  IP ip-api.com.http > localhost.localdomain.60496: Flags [S.], seq 1541037738, ack 422930778, win 8190, options [mss 1460], length 0
+02:43:04.967094 enp3s0 Out IP localhost.localdomain.60496 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:43:04.967174 enp3s0 Out IP localhost.localdomain.60496 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:04.977669 enp3s0 In  IP 216.239.38.223.http > localhost.localdomain.48760: Flags [S.], seq 4208742848, ack 3841800990, win 65535, options [mss 1412,sackOK,TS val 1786741244 ecr 712839331,nop,wscale 8], length 0
+02:43:04.977918 wlp2s0 Out IP 216.239.38.223.http > 10.0.0.100.48760: Flags [S.], seq 4208742848, ack 3841800990, win 65535, options [mss 1412,sackOK,TS val 1786741244 ecr 712839331,nop,wscale 8], length 0
+02:43:04.998649 enp3s0 In  IP ip-api.com.http > localhost.localdomain.60504: Flags [S.], seq 1372539126, ack 2981410516, win 8190, options [mss 1460], length 0
+02:43:04.998674 enp3s0 Out IP localhost.localdomain.60504 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:43:04.998746 enp3s0 Out IP localhost.localdomain.60504 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:05.020258 enp3s0 Out IP localhost.localdomain.60534 > ip-api.com.http: Flags [S], seq 569511917, win 32120, options [mss 1460,sackOK,TS val 1400322196 ecr 0,nop,wscale 7], length 0
+02:43:05.021805 enp3s0 In  IP ip-api.com.http > localhost.localdomain.60512: Flags [S.], seq 2622437376, ack 326064494, win 8190, options [mss 1460], length 0
+02:43:05.021821 enp3s0 Out IP localhost.localdomain.60512 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:43:05.021876 enp3s0 Out IP localhost.localdomain.60512 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:05.029515 enp3s0 In  IP ip-api.com.http > localhost.localdomain.60520: Flags [S.], seq 2520855897, ack 1584766435, win 8190, options [mss 1460], length 0
+02:43:05.029565 enp3s0 Out IP localhost.localdomain.60520 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:43:05.029634 enp3s0 Out IP localhost.localdomain.60520 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:05.049003 enp3s0 Out IP localhost.localdomain.60536 > ip-api.com.http: Flags [S], seq 555978398, win 32120, options [mss 1460,sackOK,TS val 1400322225 ecr 0,nop,wscale 7], length 0
+02:43:05.106553 enp3s0 Out IP localhost.localdomain.51962 > ip-api.com.http: Flags [P.], seq 1877232456:1877232616, ack 3881280314, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:43:05.106560 enp3s0 Out IP localhost.localdomain.51946 > ip-api.com.http: Flags [P.], seq 968499451:968499611, ack 1648602224, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:43:05.106564 enp3s0 Out IP localhost.localdomain.51956 > ip-api.com.http: Flags [P.], seq 1516503475:1516503635, ack 3510211824, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:43:05.106568 enp3s0 Out IP localhost.localdomain.33424 > ip-api.com.http: Flags [P.], seq 3384436960:3384437120, ack 2086834994, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:05.106568 enp3s0 Out IP localhost.localdomain.33432 > ip-api.com.http: Flags [P.], seq 3903456251:3903456411, ack 1986408899, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:05.106572 enp3s0 Out IP localhost.localdomain.51940 > ip-api.com.http: Flags [P.], seq 107408209:107408369, ack 1412504295, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:43:05.106572 enp3s0 Out IP localhost.localdomain.33408 > ip-api.com.http: Flags [P.], seq 3006687108:3006687268, ack 4184144007, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:05.106573 enp3s0 Out IP localhost.localdomain.33396 > ip-api.com.http: Flags [P.], seq 2499631448:2499631608, ack 1529534152, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:05.106579 enp3s0 Out IP localhost.localdomain.33398 > ip-api.com.http: Flags [P.], seq 3747258239:3747258399, ack 1937651640, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:05.106579 enp3s0 Out IP localhost.localdomain.33448 > ip-api.com.http: Flags [P.], seq 2668155648:2668155808, ack 2985014874, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:05.106579 enp3s0 Out IP localhost.localdomain.33402 > ip-api.com.http: Flags [P.], seq 1391959433:1391959593, ack 1833856828, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:05.106580 enp3s0 Out IP localhost.localdomain.42848 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:05.106580 enp3s0 Out IP localhost.localdomain.33388 > ip-api.com.http: Flags [P.], seq 317431033:317431193, ack 3559046742, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:05.106585 enp3s0 Out IP localhost.localdomain.33386 > ip-api.com.http: Flags [P.], seq 3195460835:3195460995, ack 3896855227, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:05.107035 enp3s0 In  IP ip-api.com.http > localhost.localdomain.60534: Flags [S.], seq 623034014, ack 569511918, win 8190, options [mss 1460], length 0
+02:43:05.107071 enp3s0 Out IP localhost.localdomain.60534 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:43:05.107138 enp3s0 Out IP localhost.localdomain.60534 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.38.223 HTTP/1.1
+02:43:05.139496 enp3s0 In  IP ip-api.com.http > localhost.localdomain.60536: Flags [S.], seq 324879054, ack 555978399, win 8190, options [mss 1460], length 0
+02:43:05.139518 enp3s0 Out IP localhost.localdomain.60536 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:43:05.139594 enp3s0 Out IP localhost.localdomain.60536 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.38.223 HTTP/1.1
+02:43:05.156849 wlp2s0 In  IP 10.0.0.100.48760 > 216.239.38.223.http: Flags [.], ack 1, win 64, options [nop,nop,TS val 712839371 ecr 1786741244], length 0
+02:43:05.157017 enp3s0 Out IP localhost.localdomain.48760 > 216.239.38.223.http: Flags [.], ack 1, win 64, options [nop,nop,TS val 712839371 ecr 1786741244], length 0
+02:43:05.157494 wlp2s0 In  IP 10.0.0.100.48760 > 216.239.38.223.http: Flags [P.], seq 1:218, ack 1, win 64, options [nop,nop,TS val 712839371 ecr 1786741244], length 217: HTTP: GET /generate_204 HTTP/1.1
+02:43:05.157713 enp3s0 Out IP localhost.localdomain.48760 > 216.239.38.223.http: Flags [P.], seq 1:218, ack 1, win 64, options [nop,nop,TS val 712839371 ecr 1786741244], length 217: HTTP: GET /generate_204 HTTP/1.1
+02:43:05.186673 enp3s0 In  IP 216.239.38.223.http > localhost.localdomain.48760: Flags [.], ack 218, win 1050, options [nop,nop,TS val 1786741453 ecr 712839371], length 0
+02:43:05.186783 enp3s0 In  IP 216.239.38.223.http > localhost.localdomain.48760: Flags [P.], seq 1:147, ack 218, win 1050, options [nop,nop,TS val 1786741454 ecr 712839371], length 146: HTTP: HTTP/1.1 204 No Content
+02:43:05.186783 enp3s0 In  IP 216.239.38.223.http > localhost.localdomain.48760: Flags [F.], seq 147, ack 218, win 1050, options [nop,nop,TS val 1786741454 ecr 712839371], length 0
+02:43:05.186888 wlp2s0 Out IP 216.239.38.223.http > 10.0.0.100.48760: Flags [.], ack 218, win 1050, options [nop,nop,TS val 1786741453 ecr 712839371], length 0
+02:43:05.187046 wlp2s0 Out IP 216.239.38.223.http > 10.0.0.100.48760: Flags [P.], seq 1:147, ack 218, win 1050, options [nop,nop,TS val 1786741454 ecr 712839371], length 146: HTTP: HTTP/1.1 204 No Content
+02:43:05.187057 wlp2s0 Out IP 216.239.38.223.http > 10.0.0.100.48760: Flags [F.], seq 147, ack 218, win 1050, options [nop,nop,TS val 1786741454 ecr 712839371], length 0
+02:43:05.194189 wlp2s0 In  IP 10.0.0.100.48760 > 216.239.38.223.http: Flags [.], ack 147, win 66, options [nop,nop,TS val 712839579 ecr 1786741454], length 0
+02:43:05.194326 enp3s0 Out IP localhost.localdomain.48760 > 216.239.38.223.http: Flags [.], ack 147, win 66, options [nop,nop,TS val 712839579 ecr 1786741454], length 0
+02:43:05.194671 wlp2s0 In  IP 10.0.0.100.48760 > 216.239.38.223.http: Flags [F.], seq 218, ack 148, win 66, options [nop,nop,TS val 712839580 ecr 1786741454], length 0
+02:43:05.194773 enp3s0 Out IP localhost.localdomain.48760 > 216.239.38.223.http: Flags [F.], seq 218, ack 148, win 66, options [nop,nop,TS val 712839580 ecr 1786741454], length 0
+02:43:05.223528 enp3s0 In  IP 216.239.38.223.http > localhost.localdomain.48760: Flags [.], ack 219, win 1050, options [nop,nop,TS val 1786741490 ecr 712839580], length 0
+02:43:05.223681 wlp2s0 Out IP 216.239.38.223.http > 10.0.0.100.48760: Flags [.], ack 219, win 1050, options [nop,nop,TS val 1786741490 ecr 712839580], length 0
+02:43:05.257806 enp3s0 Out IP localhost.localdomain.60542 > ip-api.com.http: Flags [S], seq 1860425497, win 32120, options [mss 1460,sackOK,TS val 1400322434 ecr 0,nop,wscale 7], length 0
+02:43:05.261593 enp3s0 Out IP localhost.localdomain.60544 > ip-api.com.http: Flags [S], seq 3130188365, win 32120, options [mss 1460,sackOK,TS val 1400322438 ecr 0,nop,wscale 7], length 0
+02:43:05.298648 enp3s0 Out IP localhost.localdomain.60496 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:05.330651 enp3s0 Out IP localhost.localdomain.60504 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:05.342905 enp3s0 In  IP ip-api.com.http > localhost.localdomain.60544: Flags [S.], seq 2939446514, ack 3130188366, win 8190, options [mss 1460], length 0
+02:43:05.342942 enp3s0 Out IP localhost.localdomain.60544 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:43:05.343015 enp3s0 Out IP localhost.localdomain.60544 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.38.223 HTTP/1.1
+02:43:05.347589 enp3s0 In  IP ip-api.com.http > localhost.localdomain.60542: Flags [S.], seq 791130044, ack 1860425498, win 8190, options [mss 1460], length 0
+02:43:05.347612 enp3s0 Out IP localhost.localdomain.60542 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:43:05.347650 enp3s0 Out IP localhost.localdomain.60542 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.38.223 HTTP/1.1
+02:43:05.354532 enp3s0 Out IP localhost.localdomain.60512 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:05.362559 enp3s0 Out IP localhost.localdomain.60520 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:05.434583 enp3s0 Out IP localhost.localdomain.60534 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.38.223 HTTP/1.1
+02:43:05.474572 enp3s0 Out IP localhost.localdomain.60536 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.38.223 HTTP/1.1
+02:43:05.674650 enp3s0 Out IP localhost.localdomain.60544 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.38.223 HTTP/1.1
+02:43:05.682771 enp3s0 Out IP localhost.localdomain.60542 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.38.223 HTTP/1.1
+02:43:05.810576 enp3s0 Out IP localhost.localdomain.42966 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:06.002652 enp3s0 Out IP localhost.localdomain.60496 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:06.002656 enp3s0 Out IP localhost.localdomain.60504 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:06.066533 enp3s0 Out IP localhost.localdomain.60512 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:06.066562 enp3s0 Out IP localhost.localdomain.60520 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:06.130627 enp3s0 Out IP localhost.localdomain.60534 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.38.223 HTTP/1.1
+02:43:06.130630 enp3s0 Out IP localhost.localdomain.60536 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.38.223 HTTP/1.1
+02:43:06.386580 enp3s0 Out IP localhost.localdomain.60542 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.38.223 HTTP/1.1
+02:43:06.386587 enp3s0 Out IP localhost.localdomain.60544 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.38.223 HTTP/1.1
+02:43:07.154596 enp3s0 Out IP localhost.localdomain.42908 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:07.154604 enp3s0 Out IP localhost.localdomain.42920 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:07.154612 enp3s0 Out IP localhost.localdomain.42914 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:07.154612 enp3s0 Out IP localhost.localdomain.42918 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:07.154612 enp3s0 Out IP localhost.localdomain.42884 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:07.154615 enp3s0 Out IP localhost.localdomain.42900 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:07.154616 enp3s0 Out IP localhost.localdomain.42872 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:07.154621 enp3s0 Out IP localhost.localdomain.42862 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:07.346655 enp3s0 Out IP localhost.localdomain.60496 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:07.346658 enp3s0 Out IP localhost.localdomain.60504 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:07.410666 enp3s0 Out IP localhost.localdomain.60512 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:07.410669 enp3s0 Out IP localhost.localdomain.60520 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:07.474544 enp3s0 Out IP localhost.localdomain.60534 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.38.223 HTTP/1.1
+02:43:07.474564 enp3s0 Out IP localhost.localdomain.60536 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.38.223 HTTP/1.1
+02:43:07.666546 enp3s0 Out IP localhost.localdomain.56796 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:07.693507 enp3s0 Out IP localhost.localdomain.60546 > ip-api.com.http: Flags [S], seq 1801294765, win 32120, options [mss 1460,sackOK,TS val 1400324869 ecr 0,nop,wscale 7], length 0
+02:43:07.695786 enp3s0 Out IP localhost.localdomain.60550 > ip-api.com.http: Flags [S], seq 3161337091, win 32120, options [mss 1460,sackOK,TS val 1400324872 ecr 0,nop,wscale 7], length 0
+02:43:07.730652 enp3s0 Out IP localhost.localdomain.60544 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.38.223 HTTP/1.1
+02:43:07.730658 enp3s0 Out IP localhost.localdomain.60542 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.38.223 HTTP/1.1
+02:43:07.775834 enp3s0 In  IP ip-api.com.http > localhost.localdomain.60550: Flags [S.], seq 2471632713, ack 3161337092, win 8190, options [mss 1460], length 0
+02:43:07.775872 enp3s0 Out IP localhost.localdomain.60550 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:43:07.775939 enp3s0 Out IP localhost.localdomain.60550 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:07.781603 enp3s0 In  IP ip-api.com.http > localhost.localdomain.60546: Flags [S.], seq 2271752779, ack 1801294766, win 8190, options [mss 1460], length 0
+02:43:07.781656 enp3s0 Out IP localhost.localdomain.60546 > ip-api.com.http: Flags [.], ack 1, win 32120, length 0
+02:43:07.781732 enp3s0 Out IP localhost.localdomain.60546 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:08.106553 enp3s0 Out IP localhost.localdomain.60550 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:08.114722 enp3s0 Out IP localhost.localdomain.60546 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:08.178636 enp3s0 Out IP localhost.localdomain.56778 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/172.217.25.163 HTTP/1.1
+02:43:08.178643 enp3s0 Out IP localhost.localdomain.42934 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:08.178643 enp3s0 Out IP localhost.localdomain.56802 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:08.178643 enp3s0 Out IP localhost.localdomain.56812 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+02:43:08.178644 enp3s0 Out IP localhost.localdomain.56808 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/216.239.34.223 HTTP/1.1
+02:43:08.178649 enp3s0 Out IP localhost.localdomain.56810 > ip-api.com.http: Flags [P.], seq 1:161, ack 1, win 32120, length 160: HTTP: GET /json/142.250.76.132 HTTP/1.1
+

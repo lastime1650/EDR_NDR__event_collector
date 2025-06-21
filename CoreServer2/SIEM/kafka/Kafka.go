@@ -186,7 +186,7 @@ func (k *Kafka) SendMessage(topic string, message string) error {
 	// Use a context with a timeout for the write operation
 	ctx, cancel := context.WithTimeout(context.Background(), 8*time.Second) // 10-second timeout
 	defer cancel()
-	//fmt.Printf("카프카 전달 시작\n")
+	// fmt.Printf("카프카 전달 시작\n")
 	err := k.kafkaWriter.WriteMessages(ctx, msg)
 	if err != nil {
 		fmt.Printf("카프카 전달 실패 %v \n", err)

@@ -1,7 +1,7 @@
 
 FROM  rockylinux:9
 
-RUN dnf update -y && \
+RUN dnf update -y && dnf upgrade -y && \
     dnf install -y  NetworkManager bind-utils tzdata && \
     dnf clean all
 
@@ -9,11 +9,13 @@ ENV TZ=Asia/Seoul
 
 
 # Python + util 설치
-RUN dnf install -y python3 python3-pip **python3-devel** && \ 
+RUN dnf install -y python3 python3-pip python3-devel && \ 
     dnf install -y openssl && \ 
     dnf install -y net-tools && \ 
     dnf install -y iptables && \
+    dnf install -y git && \
     dnf clean all # 설치 후 캐시 정리
+
 
 
 
@@ -22,42 +24,216 @@ RUN dnf install -y python3 python3-pip **python3-devel** && \
 # tool
 RUN dnf install dnf-plugins-core -y && \
     dnf config-manager --set-enabled crb -y && \
-    dnf install -y epel-release wget libpcap-devel *lua-devel* libyaml-devel pcre2-devel cmake pcre-devel file-devel zlib-devel libcap-ng-devel jansson-devel nss-devel libnet-devel libnetfilter_queue-devel rust-toolset librte* && \
-    dnf install -y libhtp*
+    dnf install -y epel-release wget libpcap-devel libyaml-devel pcre2-devel cmake make pcre-devel file-devel zlib-devel libcap-ng-devel jansson-devel nss-devel libnet-devel libnetfilter_queue-devel rust-toolset librte* && \
+    dnf install -y libhtp* && \
+    dnf --enablerepo=devel install lua-devel* luajit* -y
+
+### 수리카타의 확장판 'nDPI'플러그인 설치 ###
+RUN dnf install -y 'dnf-command(config-manager)' && \
+    dnf config-manager --set-enabled crb && \
+    dnf install -y epel-release && \
+    dnf install -y \
+        # 핵심: 필수 빌드 도구들
+        gcc \
+        gcc-c++ \
+        make \
+        autoconf \
+        automake \
+        libtool* \
+        libpcap* \
+        pkgconfig \
+        pkg-config \
+        # 기타 도구
+        git \
+        wget \
+        which \
+        # 수리카타 의존성 (이전 답변 내용)
+        jansson-devel \
+        libyaml-devel \
+        file-devel \
+        libpcap-devel \
+        libnet-devel \
+        nss-devel \
+        nspr-devel \
+        luajit-devel \
+        hiredis-devel \
+        zlib-devel \
+        libcap-ng-devel \
+        pcre-devel \
+        pcre2-devel \
+        # Rust 의존성
+        rust \
+        cargo 
+
+RUN dnf -y update && \
+    dnf -y install dnf-plugins-core && \
+    dnf config-manager --set-enabled crb && \
+    dnf -y --allowerasing install \
+        autoconf \
+        automake \
+        curl \
+        file-devel \
+        gcc \
+        gcc-c++ \
+        git \
+        hwloc-devel \
+        jansson-devel \
+        libcap-ng-devel \
+        libnet-devel \
+        libnetfilter_queue-devel \
+        libnfnetlink-devel \
+        libtool \
+        libyaml-devel \
+        make \
+        numactl-devel \
+        libpcap-devel \
+        pcre2-devel \
+        python3-yaml \
+        rust-toolset \
+        tar \
+        which && \
+    dnf clean all
+
+RUN cargo install --force cbindgen
+ENV PATH="/root/.cargo/bin:${PATH}"
+
+# 작업 디렉토리 설정
+WORKDIR /usr/local/src
+
+# 1단계: nDPI 다운로드 및 빌드
+# (make install은 필요 없습니다)
+RUN curl -OL https://github.com/ntop/nDPI/archive/refs/tags/4.12.tar.gz && \
+    tar xvf 4.12.tar.gz && \
+    cd nDPI-4.12 && \
+    ./autogen.sh && \
+    ./configure && \
+    make -j$(nproc)
+
+# 2단계: Suricata 다운로드 및 nDPI 연동 빌드
+RUN git clone https://github.com/OISF/suricata.git && \
+    cd suricata && \
+    git clone https://github.com/OISF/libhtp.git -b 0.5.x && \
+    ./autogen.sh && \
+    ./configure --prefix=/usr/local \
+                --sysconfdir=/etc \
+                --enable-nfqueue \
+                --enable-hiredis \
+                --enable-libcap-ng \
+                --disable-dpdk \
+                --localstatedir=/var \
+                --enable-ndpi \
+                --with-ndpi=/usr/local/src/nDPI-4.12 && \
+    make -j$(nproc) && \
+    make install-full
+
+# 3단계: 시스템 라이브러리 경로 갱신 및 불필요한 소스 코드 정리
+RUN ldconfig && \
+    rm -rf /usr/local/src/*
+
+
+RUN wget http://www.lua.org/ftp/lua-5.4.4.tar.gz && tar -xzf lua-5.4.4.tar.gz && cd lua-5.4.4 && make linux && make install
+
+RUN dnf install luarocks -y
+
+
+## PolarProxy 설치 ( 투명모드 ) ## 
+RUN dnf install -y unzip dotnet-sdk-8.0 socat && dnf clean all
+
+# pola 설치
+WORKDIR /Polarproxy
+RUN wget https://www.netresec.com/?download=PolarProxy -O PolarProxy.tar && \
+    tar -xzf PolarProxy.tar
+
+# pcap
+
 # suricata 직접 설치
 WORKDIR /docker__suricata
 
-RUN wget https://www.openinfosecfoundation.org/download/suricata-7.0.10.tar.gz && tar -xzf suricata-7.0.10.tar.gz && cd suricata-7.0.10 && ./configure --prefix=/usr --sysconfdir=/etc --localstatedir=/var --enable-nfqueue --enable-lua --enable-rust --disable-dpdk && make && make install 
+# configure 시, nDPI 설치 옵션도 추가하라.
+#RUN wget https://www.openinfosecfoundation.org/download/suricata-7.0.10.tar.gz && tar -xzf suricata-7.0.10.tar.gz && cd suricata-7.0.10 && \
+# ./configure --prefix=/usr \
+#                --sysconfdir=/etc \
+#                --localstatedir=/var \
+#                --enable-nfqueue \
+#                --enable-luajit \
+#                --enable-libcap-ng \
+#                --enable-hiredis \
+#                --enable-rust \
+#                --disable-dpdk \
+#                --enable-ndpi \
+#                --with-ndpi-includes=/usr/local/src/nDPI && \
+#make -j$(nproc) && make install
+
+# lua 유틸 설치 (luarocks)
+RUN luarocks install lua-cjson 
+RUN luarocks install luasocket
+RUN luarocks install base64
+RUN luarocks install luaposix
+
+RUN dnf install htop vim -y
+
+# 후속 설치
+RUN dnf install -y net-tools
 
 # 수리카타 yaml 설정 파일 들
-COPY NDR/Suricata/yamls/ /etc/suricata/
+COPY NDR/suricata/yamls/ /etc/suricata/
 
 # 수리카타 규칙 파일들
-COPY NDR/Suricata/rules/ /var/lib/suricata/rules/
+COPY NDR/suricata/rules/ /var/lib/suricata/rules/
 
 # 수리카타 로그들
-COPY NDR/Suricata/logs/ /var/log/suricata/
+COPY NDR/suricata/logs/ /var/log/suricata/
+
+# 수리카타 lua 스크립트
+COPY NDR/suricata/lua/ /etc/suricata/lua-output/
+
+RUN dnf install netcat -y 
+
+# 스크립트 가져오기
+
+COPY NDR/ .
+
+RUN pip3 install -r requirements.txt
+
+### 수리카타 설치 끝  ###
+
+################################################################
+# SslSplit 설치 ( SSL/TLS 복호화 ) (PolarProxy로 변경)
+#WORKDIR /usr/local/src
+
+#RUN dnf groupinstall "Development Tools" -y
+#RUN dnf install git openssl-devel libevent-devel libpcap-devel libnet-devel -y
+#RUN git clone git clone https://github.com/droe/sslsplit.git
+
+#WORKDIR /usr/local/src/sslsplit
+#RUN make -j$(nproc)
+#RUN make install
+# 설치완료
+
+# sslsplit 인증서 공간마련( 보안주의 )
+#WORKDIR /usr/loca/src/sslsplit/certs
+
+# 기본 인증서 생성 ( Default 포티게이트의 기본 인증서처럼 제공하는 것 ㅋ)
+
+# 개인키
+#RUN openssl genrsa -out NGFW_private.key 4096
+#RUN chmod 600 NGFW_private.key
+
+# 공개키
+#RUN openssl req -new -x509 -days 3650 -key NGFW_private.key -out NGFW_public.crt  -subj  "/C=--/ST=None/L=None/O=Default/OU=None/CN=Default-CA"
+#RUN chmod 644 NGFW_public.crt
 
 
-### 수리카타 설치 끝 ###
+
+#sudo sslsplit -D -P \
+#             -k /etc/sslsplit/ca.key \
+#             -c /etc/sslsplit/ca.crt \
+#             -u nobody \
+#             https 0.0.0.0 8443
 
 
 
-### MitmProxy 서버 설치 시작 ###
-RUN pip3 install mitmproxy
-
-WORKDIR /docker__mitmproxy
-
-COPY NDR/Mitmproxy/ .
-
-### MitmProxy 서버 설치 끝  ###
-
-# 1. MitmProxy ( HTTPS,HTTP + scapy 활용 )
-
-# 추가
-# procps 다운
-RUN dnf install -y procps-ng
 
 WORKDIR /
 
-CMD ["/bin/bash", "-c", "mitmweb --listen-host 0.0.0.0 --listen-port 12312 --web-host 0.0.0.0 --web-port 12313 -s /docker__mitmproxy/main.py" ]
+CMD ["/bin/bash", "-c", "python3 /docker__suricata/main.py & tail -f /dev/null" ]
