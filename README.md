@@ -6,4 +6,4 @@ EDR 및 NDR 분석에 필요한 이벤트들을 직접 수집하고, KAFKA를 �
 
 # 구성 및 흐름도
 
-[!initial](https://github.com/lastime1650/EDR_NDR__event_collector/images/Collector.png)
+[!initial](https://github.com/lastime1650/EDR_NDR__event_collector/blob/main/images/Collector.png)
