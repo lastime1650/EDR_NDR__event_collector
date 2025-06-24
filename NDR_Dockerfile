@@ -101,7 +101,7 @@ ENV PATH="/root/.cargo/bin:${PATH}"
 WORKDIR /usr/local/src
 
 # 1단계: nDPI 다운로드 및 빌드
-# (make install은 필요 없습니다)
+# (make install은 필요 없)
 RUN curl -OL https://github.com/ntop/nDPI/archive/refs/tags/4.12.tar.gz && \
     tar xvf 4.12.tar.gz && \
     cd nDPI-4.12 && \
@@ -109,7 +109,7 @@ RUN curl -OL https://github.com/ntop/nDPI/archive/refs/tags/4.12.tar.gz && \
     ./configure && \
     make -j$(nproc)
 
-# 2단계: Suricata 다운로드 및 nDPI 연동 빌드
+# 2단계: Suricata 다운로드 및 nDPI 연동 빌드 ( NEW )
 RUN git clone https://github.com/OISF/suricata.git && \
     cd suricata && \
     git clone https://github.com/OISF/libhtp.git -b 0.5.x && \
@@ -144,12 +144,12 @@ WORKDIR /Polarproxy
 RUN wget https://www.netresec.com/?download=PolarProxy -O PolarProxy.tar && \
     tar -xzf PolarProxy.tar
 
-# pcap
+#################################
 
-# suricata 직접 설치
+# suricata 스크립트 관련 설치 진행
 WORKDIR /docker__suricata
 
-# configure 시, nDPI 설치 옵션도 추가하라.
+# configure 시, nDPI 설치 옵션도 추가하라. ( Old )
 #RUN wget https://www.openinfosecfoundation.org/download/suricata-7.0.10.tar.gz && tar -xzf suricata-7.0.10.tar.gz && cd suricata-7.0.10 && \
 # ./configure --prefix=/usr \
 #                --sysconfdir=/etc \

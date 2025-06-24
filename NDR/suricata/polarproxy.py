@@ -1,7 +1,5 @@
 import subprocess
 import threading
-
-
 class PolarProxy():
     def __init__(self, PolarProxy_program_PATH:str="/Polarproxy/PolarProxy"):
         self.PolarProxy_program_PATH = PolarProxy_program_PATH
