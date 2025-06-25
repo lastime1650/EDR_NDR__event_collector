@@ -56,7 +56,7 @@ class VPN_Server():
             
     
 
-VPN_Server(
+'''VPN_Server(
     Server_Proto_Mode.TCP_mode,
     "127.0.0.1",
-).Start_Server() # VPN 서버 실행
+).Start_Server() # VPN 서버 실행'''

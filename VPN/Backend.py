@@ -38,14 +38,26 @@ class VPN_Backend():
         Client = VPN_Client_Manager(
             client_socket=client_socket,
             client_ip=client_ip,
-        )'''
+        )
         
         # 연결성공 전송
-        '''Client.Send(
+        Client.Send(
             signal=DataSignal.VIP_SUCCESS,
             VIP=My_VIP,
             data=b"Welcome - VPN!@#"
         )'''
+        import json
+        # VIP IP 전달
+        client_socket.sendall(
+            str(json.dumps(
+                {
+                    "vip": My_VIP,
+                    "subnetmask": self.Tunnel_Manager.VIP_manager.VIP_Subnet,
+                    "gw": self.Tunnel_Manager.VIP_manager.VIP_GW,
+                }
+            )).encode()
+        )
+        
         
         while True:
             # TEST
@@ -62,10 +74,4 @@ class VPN_Backend():
             self.Tunnel_Manager.SendTunnelQueue.put(
                 packet_By_client
             )
-            
-            
-            # 1. Client로부터 받음
-            #recv_client:DataStruct = Client.Receive() 
-            
-            # 2. Tunnel에 전달
             

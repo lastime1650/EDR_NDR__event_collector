@@ -1,7 +1,7 @@
 import ipaddress
 import threading
 import queue
-
+ipaddress.ip_network("172.31.1.0/24").netmask
 import socket
 from typing import Optional
 
@@ -19,10 +19,11 @@ class VIP_manager():
             #            }
             #}
         }
-        VIP_Subnet:str = VIP_Subnet
+        self.VIP_Subnet:str = VIP_Subnet
+        self.VIP_netmask:str = ipaddress.ip_network(VIP_Subnet).netmask
         
-        # VIP Pool 내 메인 호스트 ( * 첫번째 호스트 )
-        self.VIP_Pool__main_host:str  = list(ipaddress.ip_network(VIP_Subnet).hosts())[0]
+        # VIP Pool 내 Gateway
+        self.VIP_GW:str  = list(ipaddress.ip_network(VIP_Subnet).hosts())[0]
         # VIP Pool 생성
         for host_ip in list(ipaddress.ip_network(VIP_Subnet).hosts())[1:]:
             self.VIP_Pool[str(host_ip)] = None # 초기화 
